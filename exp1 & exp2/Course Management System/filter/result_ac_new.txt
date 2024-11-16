@@ -1,0 +1,16 @@
+Failure rate:
+start: 0.001, Log_in: 0.001, View_schedule: 0.001, View_School_Schedule: 0.001, View_Faculty_Schedule: 0.001, View_class_Schedule: 0.001, View_Course_Schedule: 0.001, View_Myself_Schedule: 0.001, Export_to_Excel: 0.001, stop: 0.001, 
+
+Recovery rate:
+start: 0.9, Log_in: 0.52171, View_schedule: 0.52171, View_School_Schedule: 0.61, View_Faculty_Schedule: 0.61, View_class_Schedule: 0.61, View_Course_Schedule: 0.61, View_Myself_Schedule: 0.61, Export_to_Excel: 0.52171, stop: 0.9, 
+
+number of attacks = 9
+
+According to the dynamic Bayesian network constructed by PATH, the resilience evaluation result is: 0.3976
+
+System resilience rating is: 4.0(Full level is 10)
+
+According to the dynamic Bayesian network constructed by CIRCLE,SERIAL,PARALLEL, the resilience evaluation result is: 0.4593
+
+System resilience rating is: 5.0(Full level is 10)
+

@@ -1,0 +1,87 @@
+@startuml
+[User database] as user_d
+[Order database] as order_d
+[Ticket database] as ticket_d
+[user information system] as user_info
+[Booking Information System] as order_info
+[Ticket Information System] as ticket_info
+[User service system] as user_service
+[User front end] as user_front
+[Third party payment service] as pay
+[Booking system] as order_sys
+[Notification service] as notification_service
+[admin front end] as admin_front
+[Financial System] as financial_system
+
+interface User_data_management as int_user_data
+interface Order_data_management as int_order_data
+interface Ticket_data_management as int_ticket_data
+interface User_Info as int_user_info
+interface Ticket_Information as int_ticket_info
+interface User_service_information_packaging as int_user_service_info
+
+
+interface Payment_Information as int_pay_info
+interface Package_booking_information as int_order_info
+
+interface Packaging_notification_information as int_notification_info
+
+
+interface Financial_Information as int_financial_information
+
+
+
+
+
+user_d -- int_user_data
+
+user_info --( int_user_data
+user_info -- int_user_info
+user_info -- int_user_service_info
+
+
+order_d -- int_order_data
+
+order_info --( int_order_data
+order_info --( int_user_info
+order_info --( int_ticket_info
+order_info -- int_order_info
+order_info -- int_notification_info
+
+order_info -- int_financial_information
+
+ticket_d -- int_ticket_data
+
+ticket_info -- int_ticket_info
+ticket_info --( int_ticket_data
+
+
+
+user_service --( int_user_service_info
+
+
+
+
+pay --( int_pay_info
+
+order_sys -- int_pay_info
+order_sys --( int_order_info
+
+
+notification_service --( int_notification_info
+
+
+admin_front ..> user_info
+admin_front ..> order_info
+admin_front ..> financial_system
+admin_front ..> ticket_info
+
+financial_system --( int_financial_information
+
+
+user_front ..> user_service
+user_front ..> pay
+user_front ..> order_sys
+user_front ..> notification_service
+user_front ..> ticket_info
+@enduml

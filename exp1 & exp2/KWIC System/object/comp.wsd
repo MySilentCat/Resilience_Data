@@ -1,0 +1,37 @@
+@startuml 
+
+[Main Control] as Control
+[Input] as Input
+[Shifter] as Shifter
+[Alphabetizer] as Alphabetizer
+[Line Storage] as Storage
+[Output] as Output
+
+Control --( synax_analysis
+Control --( Setting
+Control --( Alphabet
+Control --( Print
+
+synax_analysis -- Input
+Setting -- Shifter
+Print -- Output
+Alphabet -- Alphabetizer
+
+Input --( add_line
+add_line -- Storage
+Input --( add_word
+add_word -- Storage
+
+Output --( get_line
+get_line -- Alphabetizer
+
+Alphabetizer --( get_a_line
+get_a_line -- Shifter
+
+Shifter --( get_a_word
+get_a_word -- Storage
+
+Shifter --( get__line
+get__line -- Storage
+
+@enduml

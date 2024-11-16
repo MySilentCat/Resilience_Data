@@ -1,0 +1,80 @@
+@startuml Stock Management System Activity Diagram
+title Stock Management System Activity Diagram
+|user|
+start
+:Login to the Stock Management System;
+
+repeat
+    |#WhiteSmoke|user|
+    :Admin login ID and Password;
+
+    :Send ID and Password>
+
+    |#lightgray|server|
+    :Receive ID and Password<
+
+    :Check ID and Password;
+    |Database|
+    :Check ID and Password in Database;
+
+
+    |server|
+    if (Valid) then(yes)
+        :Valid ID and Dassword;
+        |server|
+        :Send user level and permission;
+    else (no)
+        :Invalid ID or Password;
+        |server|
+        :return Invalid Info;
+    endif
+    :Send login Result>
+    |user|
+    :Receive login Result<
+repeat while (If invalid ID/password?) is (no)
+
+:Set user level and permissions;
+:Access Internal Functionalities;
+split
+    |user|
+    if (Have permissions) then(yes)
+        :Manage Stock;
+    endif
+split again
+    |user|
+    if (Have certain permissions) then(yes)
+        :Manage Product;
+    endif
+split again
+    |user|
+    if (Have certain permissions) then(yes)
+        :Manage Quality;
+    endif
+split again
+    |user|
+    if (Have certain permissions) then(yes)
+        :Manage Bill;
+    endif
+split again
+    |user|
+    if (Have certain permissions) then(yes)
+        :Manage Custmor;
+    endif
+end split
+if (there is one Operation need to be Done) then (yes)
+    :Send Operation>
+    |server|
+    :receive Operation<
+    :Call Database;
+    |Database|
+    :Operation Action;
+    |server|
+    :Send Result>
+    |user|
+    :receive Result<
+endif
+
+|user|
+:Logout from the System;
+stop
+@enduml

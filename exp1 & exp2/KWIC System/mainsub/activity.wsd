@@ -1,0 +1,8 @@
+@startuml KWIC
+start
+:input;
+:shifter;
+:alphabetizer;
+:output;
+stop
+@enduml

@@ -1,0 +1,16 @@
+6
+
+Control Input Shifter Alphabetizer Storage Output
+
+0 1 1 1 0 1
+0 0 0 0 1 0
+0 0 0 0 1 0
+0 0 1 0 0 0
+0 0 0 0 0 0
+0 0 0 1 0 0
+
+Input Shifter
+
+Input Shifter Alphabetizer Output
+
+Input Shifter Alphabetizer Output

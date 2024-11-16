@@ -1,0 +1,17 @@
+The resilience values of this software architecture component diagram are: 0.622
+
+The list of toughness values when a component is damaged is as follows:
+pay: 0.292
+user_service: 0.297
+order_sys: 0.308
+user_info: 0.315
+notification_service: 0.32
+financial_system: 0.321
+order_info: 0.337
+ticket_info: 0.358
+user_front: 0.37
+admin_front: 0.378
+user_d: 0.384
+ticket_d: 0.415
+order_d: 0.433
+

@@ -1,0 +1,18 @@
+@startuml 
+
+[Main Control] as Control
+[Input] as Input
+[Shifter] as Shifter
+[Alphabetizer] as Alphabetizer
+[Output] as Output
+
+Control --( in
+in -- Input
+Control --( s
+s -- Shifter
+Control --( out
+out -- Output
+Control --( alpha
+alpha -- Alphabetizer
+
+@enduml

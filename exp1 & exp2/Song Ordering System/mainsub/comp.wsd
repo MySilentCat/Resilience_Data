@@ -1,0 +1,22 @@
+@startuml 
+
+[Client Font End] as User
+[Order System] as System
+[Database Server] as DataBase
+[Delete Song] as Delete
+[Sort Song] as Sort
+[Add Song] as Add
+
+User ..> System 
+System --( delete
+delete -- Delete
+System --( sort
+sort -- Sort
+System --( add
+add -- Add
+Delete --( TCP
+Sort --( TCP
+Add --( TCP
+TCP -- DataBase
+
+@enduml

@@ -1,0 +1,14 @@
+@startuml 
+
+[Input] as Input
+[Shifter] as Shifter
+[Alphabetizer] as Alphabetizer
+[Output] as Output
+
+Shifter ..> Input
+Alphabetizer --( HTTP2
+HTTP2 -- Shifter
+Output --( HTTP3
+HTTP3 -- Alphabetizer
+
+@enduml

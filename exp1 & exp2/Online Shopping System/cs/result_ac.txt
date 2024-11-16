@@ -1,0 +1,14 @@
+Failure rate = 0.001
+
+Recovery rate = 0.6
+
+number of attacks = 9
+
+According to the dynamic Bayesian network constructed by PATH, the resilience evaluation result is: 0.1982
+
+System resilience rating is: 2.0(Full level is 10)
+
+According to the dynamic Bayesian network constructed by CIRCLE,SERIAL,PARALLEL, the resilience evaluation result is: 0.2961
+
+System resilience rating is: 3.0(Full level is 10)
+

@@ -1,0 +1,18 @@
+Failure rate:
+start: 0.001, startorder: 0.001, input_song_name: 0.001, search_for_song_info: 0.001, show_song_info: 0.001, delete_song: 0.001, sort_song: 0.001, 
+add_song: 0.001, show_song_list: 0.001, stop: 0.001, 
+
+Recovery rate:
+start: 0.9, startorder: 0.8045, input_song_name: 0.8045, search_for_song_info: 0.675, show_song_info: 0.8045, delete_song: 0.74, sort_song: 0.74, 
+add_song: 0.74, show_song_list: 0.8045, stop: 0.9, 
+
+number of attacks = 9
+
+According to the dynamic Bayesian network constructed by PATH, the resilience evaluation result is: 0.422
+
+System resilience rating is: 4.0(Full level is 10)
+
+According to the dynamic Bayesian network constructed by CIRCLE,SERIAL,PARALLEL, the resilience evaluation result is: 0.5031
+
+System resilience rating is: 5.0(Full level is 10)
+

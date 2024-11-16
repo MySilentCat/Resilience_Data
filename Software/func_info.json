@@ -1,0 +1,6878 @@
+{
+    "pjsip_auth_clt_pref_dup": {
+        "num": 1
+    },
+    "pjsip_cred_info_dup": {
+        "num": 1
+    },
+    "pjsip_cred_info_cmp": {
+        "num": 1
+    },
+    "pjsip_auth_clt_init": {
+        "num": 1
+    },
+    "pjsip_auth_clt_deinit": {
+        "num": 1
+    },
+    "pjsip_auth_clt_clone": {
+        "num": 1
+    },
+    "pjsip_auth_clt_set_credentials": {
+        "num": 1
+    },
+    "pjsip_auth_clt_set_prefs": {
+        "num": 1
+    },
+    "pjsip_auth_clt_get_prefs": {
+        "num": 1
+    },
+    "pjsip_auth_clt_init_req": {
+        "num": 1
+    },
+    "pjsip_auth_clt_reinit_req": {
+        "num": 1
+    },
+    "pjsip_auth_srv_init": {
+        "num": 1
+    },
+    "pjsip_auth_srv_init2": {
+        "num": 1
+    },
+    "pjsip_auth_srv_verify": {
+        "num": 1
+    },
+    "pjsip_auth_srv_challenge": {
+        "num": 1
+    },
+    "pjsip_auth_create_digest": {
+        "num": 1
+    },
+    "pjsip_auth_create_digestSHA256": {
+        "num": 1
+    },
+    "pjsip_auth_create_aka_response": {
+        "num": 1
+    },
+    "pjsip_authorization_hdr_create": {
+        "num": 1
+    },
+    "pjsip_proxy_authorization_hdr_create": {
+        "num": 1
+    },
+    "pjsip_www_authenticate_hdr_create": {
+        "num": 1
+    },
+    "pjsip_proxy_authenticate_hdr_create": {
+        "num": 1
+    },
+    "pjsip_auth_init_parser": {
+        "num": 1
+    },
+    "pjsip_auth_deinit_parser": {
+        "num": 1
+    },
+    "pjsip_method_creates_dialog": {
+        "num": 1
+    },
+    "pjsip_dlg_create_uac": {
+        "num": 1
+    },
+    "pjsip_dlg_create_uac2": {
+        "num": 1
+    },
+    "pjsip_dlg_create_uas_and_inc_lock": {
+        "num": 1
+    },
+    "pjsip_dlg_set_transport": {
+        "num": 1
+    },
+    "pjsip_dlg_set_via_sent_by": {
+        "num": 1
+    },
+    "pjsip_dlg_fork": {
+        "num": 1
+    },
+    "pjsip_dlg_terminate": {
+        "num": 1
+    },
+    "pjsip_dlg_set_route_set": {
+        "num": 1
+    },
+    "pjsip_dlg_inc_session": {
+        "num": 1
+    },
+    "pjsip_dlg_dec_session": {
+        "num": 1
+    },
+    "pjsip_dlg_add_usage": {
+        "num": 1
+    },
+    "pjsip_dlg_has_usage": {
+        "num": 1
+    },
+    "pjsip_dlg_set_mod_data": {
+        "num": 1
+    },
+    "pjsip_dlg_get_mod_data": {
+        "num": 1
+    },
+    "pjsip_dlg_inc_lock": {
+        "num": 1
+    },
+    "pjsip_dlg_try_inc_lock": {
+        "num": 1
+    },
+    "pjsip_dlg_dec_lock": {
+        "num": 1
+    },
+    "pjsip_dlg_get_lock": {
+        "num": 1
+    },
+    "pjsip_rdata_get_dlg": {
+        "num": 1
+    },
+    "pjsip_tdata_get_dlg": {
+        "num": 1
+    },
+    "pjsip_tsx_get_dlg": {
+        "num": 1
+    },
+    "pjsip_dlg_create_request": {
+        "num": 1
+    },
+    "pjsip_dlg_send_request": {
+        "num": 1
+    },
+    "pjsip_dlg_create_response": {
+        "num": 1
+    },
+    "pjsip_dlg_modify_response": {
+        "num": 1
+    },
+    "pjsip_dlg_send_response": {
+        "num": 1
+    },
+    "pjsip_dlg_respond": {
+        "num": 1
+    },
+    "pjsip_dlg_remote_has_cap": {
+        "num": 1
+    },
+    "pjsip_dlg_get_remote_cap_hdr": {
+        "num": 1
+    },
+    "pjsip_dlg_set_remote_cap_hdr": {
+        "num": 1
+    },
+    "pjsip_dlg_remove_remote_cap_hdr": {
+        "num": 1
+    },
+    "pjsip_dlg_update_remote_cap": {
+        "num": 1
+    },
+    "pjsip_dlg_on_tsx_state": {
+        "num": 1
+    },
+    "pjsip_dlg_on_rx_request": {
+        "num": 1
+    },
+    "pjsip_dlg_on_rx_response": {
+        "num": 1
+    },
+    "pjsip_endpt_create": {
+        "num": 1
+    },
+    "pjsip_endpt_destroy": {
+        "num": 1
+    },
+    "pjsip_endpt_name": {
+        "num": 1
+    },
+    "pjsip_endpt_handle_events": {
+        "num": 1
+    },
+    "pjsip_endpt_handle_events2": {
+        "num": 1
+    },
+    "pjsip_endpt_schedule_timer_dbg": {
+        "num": 1
+    },
+    "pjsip_endpt_schedule_timer_w_grp_lock_dbg": {
+        "num": 1
+    },
+    "pjsip_endpt_cancel_timer": {
+        "num": 1
+    },
+    "pjsip_endpt_get_timer_heap": {
+        "num": 1
+    },
+    "pjsip_endpt_register_module": {
+        "num": 1
+    },
+    "pjsip_endpt_unregister_module": {
+        "num": 1
+    },
+    "pjsip_process_rdata_param_default": {
+        "num": 1
+    },
+    "pjsip_endpt_process_rx_data": {
+        "num": 1
+    },
+    "pjsip_endpt_create_pool": {
+        "num": 1
+    },
+    "pjsip_endpt_release_pool": {
+        "num": 1
+    },
+    "pjsip_endpt_find_tsx": {
+        "num": 1
+    },
+    "pjsip_endpt_register_tsx": {
+        "num": 1
+    },
+    "pjsip_endpt_destroy_tsx": {
+        "num": 1
+    },
+    "pjsip_endpt_create_tdata": {
+        "num": 1
+    },
+    "pjsip_endpt_create_resolver": {
+        "num": 1
+    },
+    "pjsip_endpt_set_resolver": {
+        "num": 1
+    },
+    "pjsip_endpt_set_ext_resolver": {
+        "num": 1
+    },
+    "pjsip_endpt_get_resolver": {
+        "num": 1
+    },
+    "pjsip_endpt_resolve": {
+        "num": 1
+    },
+    "pjsip_endpt_get_tpmgr": {
+        "num": 1
+    },
+    "pjsip_endpt_get_ioqueue": {
+        "num": 1
+    },
+    "pjsip_endpt_acquire_transport": {
+        "num": 1
+    },
+    "pjsip_endpt_acquire_transport2": {
+        "num": 1
+    },
+    "pjsip_endpt_get_capability": {
+        "num": 1
+    },
+    "pjsip_endpt_has_capability": {
+        "num": 1
+    },
+    "pjsip_endpt_add_capability": {
+        "num": 1
+    },
+    "pjsip_endpt_get_request_headers": {
+        "num": 1
+    },
+    "pjsip_endpt_dump": {
+        "num": 1
+    },
+    "pjsip_endpt_atexit": {
+        "num": 1
+    },
+    "pjsip_endpt_log_error": {
+        "num": 1
+    },
+    "pjsip_endpt_send_tsx_event": {
+        "num": 1
+    },
+    "pjsip_strerror": {
+        "num": 1
+    },
+    "pjsip_event_str": {
+        "num": 1
+    },
+    "pjsip_get_invite_method": {
+        "num": 1
+    },
+    "pjsip_get_cancel_method": {
+        "num": 1
+    },
+    "pjsip_get_ack_method": {
+        "num": 1
+    },
+    "pjsip_get_bye_method": {
+        "num": 1
+    },
+    "pjsip_get_register_method": {
+        "num": 1
+    },
+    "pjsip_get_options_method": {
+        "num": 1
+    },
+    "pjsip_method_init": {
+        "num": 1
+    },
+    "pjsip_method_init_np": {
+        "num": 1
+    },
+    "pjsip_method_set": {
+        "num": 1
+    },
+    "pjsip_method_copy": {
+        "num": 1
+    },
+    "pjsip_method_cmp": {
+        "num": 1
+    },
+    "pjsip_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_hdr_shallow_clone": {
+        "num": 1
+    },
+    "pjsip_hdr_print_on": {
+        "num": 1
+    },
+    "pjsip_hdr_find": {
+        "num": 1
+    },
+    "pjsip_hdr_find_by_name": {
+        "num": 1
+    },
+    "pjsip_hdr_find_by_names": {
+        "num": 1
+    },
+    "pjsip_get_status_text": {
+        "num": 1
+    },
+    "pjsip_media_type_init": {
+        "num": 1
+    },
+    "pjsip_media_type_init2": {
+        "num": 1
+    },
+    "pjsip_media_type_cmp": {
+        "num": 1
+    },
+    "pjsip_media_type_cp": {
+        "num": 1
+    },
+    "pjsip_media_type_print": {
+        "num": 1
+    },
+    "pjsip_print_text_body": {
+        "num": 1
+    },
+    "pjsip_clone_text_data": {
+        "num": 1
+    },
+    "pjsip_msg_body_copy": {
+        "num": 1
+    },
+    "pjsip_msg_body_clone": {
+        "num": 1
+    },
+    "pjsip_msg_body_create": {
+        "num": 1
+    },
+    "pjsip_msg_create": {
+        "num": 1
+    },
+    "pjsip_msg_clone": {
+        "num": 1
+    },
+    "pjsip_msg_find_hdr": {
+        "num": 1
+    },
+    "pjsip_msg_find_hdr_by_name": {
+        "num": 1
+    },
+    "pjsip_msg_find_hdr_by_names": {
+        "num": 1
+    },
+    "pjsip_msg_find_remove_hdr": {
+        "num": 1
+    },
+    "pjsip_msg_add_hdr": {
+        "num": 1
+    },
+    "pjsip_msg_insert_first_hdr": {
+        "num": 1
+    },
+    "pjsip_msg_print": {
+        "num": 1
+    },
+    "pjsip_generic_string_hdr_create": {
+        "num": 1
+    },
+    "pjsip_generic_string_hdr_init": {
+        "num": 1
+    },
+    "pjsip_generic_string_hdr_init2": {
+        "num": 1
+    },
+    "pjsip_generic_int_hdr_create": {
+        "num": 1
+    },
+    "pjsip_generic_int_hdr_init": {
+        "num": 1
+    },
+    "pjsip_generic_array_hdr_create": {
+        "num": 1
+    },
+    "pjsip_generic_array_hdr_init": {
+        "num": 1
+    },
+    "pjsip_accept_hdr_create": {
+        "num": 1
+    },
+    "pjsip_accept_hdr_init": {
+        "num": 1
+    },
+    "pjsip_allow_hdr_create": {
+        "num": 1
+    },
+    "pjsip_allow_hdr_init": {
+        "num": 1
+    },
+    "pjsip_cid_hdr_create": {
+        "num": 1
+    },
+    "pjsip_cid_hdr_init": {
+        "num": 1
+    },
+    "pjsip_clen_hdr_create": {
+        "num": 1
+    },
+    "pjsip_clen_hdr_init": {
+        "num": 1
+    },
+    "pjsip_cseq_hdr_create": {
+        "num": 1
+    },
+    "pjsip_cseq_hdr_init": {
+        "num": 1
+    },
+    "pjsip_contact_hdr_create": {
+        "num": 1
+    },
+    "pjsip_contact_hdr_init": {
+        "num": 1
+    },
+    "pjsip_ctype_hdr_create": {
+        "num": 1
+    },
+    "pjsip_ctype_hdr_init": {
+        "num": 1
+    },
+    "pjsip_expires_hdr_create": {
+        "num": 1
+    },
+    "pjsip_expires_hdr_init": {
+        "num": 1
+    },
+    "pjsip_from_hdr_create": {
+        "num": 1
+    },
+    "pjsip_from_hdr_init": {
+        "num": 1
+    },
+    "pjsip_to_hdr_create": {
+        "num": 1
+    },
+    "pjsip_to_hdr_init": {
+        "num": 1
+    },
+    "pjsip_fromto_hdr_set_from": {
+        "num": 1
+    },
+    "pjsip_fromto_hdr_set_to": {
+        "num": 1
+    },
+    "pjsip_max_fwd_hdr_create": {
+        "num": 1
+    },
+    "pjsip_max_fwd_hdr_init": {
+        "num": 1
+    },
+    "pjsip_min_expires_hdr_create": {
+        "num": 1
+    },
+    "pjsip_min_expires_hdr_init": {
+        "num": 1
+    },
+    "pjsip_rr_hdr_create": {
+        "num": 1
+    },
+    "pjsip_rr_hdr_init": {
+        "num": 1
+    },
+    "pjsip_route_hdr_create": {
+        "num": 1
+    },
+    "pjsip_route_hdr_init": {
+        "num": 1
+    },
+    "pjsip_routing_hdr_set_rr": {
+        "num": 1
+    },
+    "pjsip_routing_hdr_set_route": {
+        "num": 1
+    },
+    "pjsip_require_hdr_create": {
+        "num": 1
+    },
+    "pjsip_require_hdr_init": {
+        "num": 1
+    },
+    "pjsip_retry_after_hdr_create": {
+        "num": 1
+    },
+    "pjsip_retry_after_hdr_init": {
+        "num": 1
+    },
+    "pjsip_supported_hdr_create": {
+        "num": 1
+    },
+    "pjsip_supported_hdr_init": {
+        "num": 1
+    },
+    "pjsip_unsupported_hdr_create": {
+        "num": 1
+    },
+    "pjsip_unsupported_hdr_init": {
+        "num": 1
+    },
+    "pjsip_via_hdr_create": {
+        "num": 1
+    },
+    "pjsip_via_hdr_init": {
+        "num": 1
+    },
+    "pjsip_warning_hdr_create": {
+        "num": 1
+    },
+    "pjsip_warning_hdr_create_from_status": {
+        "num": 1
+    },
+    "pjsip_multipart_create": {
+        "num": 1
+    },
+    "pjsip_multipart_create_part": {
+        "num": 1
+    },
+    "pjsip_multipart_clone_part": {
+        "num": 1
+    },
+    "pjsip_multipart_add_part": {
+        "num": 1
+    },
+    "pjsip_multipart_get_first_part": {
+        "num": 1
+    },
+    "pjsip_multipart_get_next_part": {
+        "num": 1
+    },
+    "pjsip_multipart_find_part": {
+        "num": 1
+    },
+    "pjsip_multipart_find_part_by_header": {
+        "num": 1
+    },
+    "pjsip_multipart_find_part_by_header_str": {
+        "num": 1
+    },
+    "pjsip_multipart_find_part_by_cid_str": {
+        "num": 1
+    },
+    "pjsip_multipart_find_part_by_cid_uri": {
+        "num": 1
+    },
+    "pjsip_multipart_parse": {
+        "num": 1
+    },
+    "pjsip_multipart_get_raw": {
+        "num": 1
+    },
+    "pjsip_register_hdr_parser": {
+        "num": 1
+    },
+    "pjsip_unregister_hdr_parser": {
+        "num": 1
+    },
+    "pjsip_register_uri_parser": {
+        "num": 1
+    },
+    "pjsip_unregister_uri_parser": {
+        "num": 1
+    },
+    "pjsip_parse_uri": {
+        "num": 1
+    },
+    "pjsip_parse_status_line": {
+        "num": 1
+    },
+    "pjsip_parse_msg": {
+        "num": 1
+    },
+    "pjsip_parse_rdata": {
+        "num": 1
+    },
+    "pjsip_find_msg": {
+        "num": 1
+    },
+    "pjsip_parse_hdr": {
+        "num": 1
+    },
+    "pjsip_parse_headers": {
+        "num": 1
+    },
+    "pjsip_parser_const": {
+        "num": 1
+    },
+    "pjsip_parse_param_imp": {
+        "num": 1
+    },
+    "pjsip_parse_uri_param_imp": {
+        "num": 1
+    },
+    "pjsip_concat_param_imp": {
+        "num": 1
+    },
+    "pjsip_parse_end_hdr_imp": {
+        "num": 1
+    },
+    "pjsip_parse_generic_array_hdr_imp": {
+        "num": 1
+    },
+    "pjsip_resolver_create": {
+        "num": 1
+    },
+    "pjsip_resolver_set_resolver": {
+        "num": 1
+    },
+    "pjsip_resolver_set_ext_resolver": {
+        "num": 1
+    },
+    "pjsip_resolver_get_resolver": {
+        "num": 1
+    },
+    "pjsip_resolver_destroy": {
+        "num": 1
+    },
+    "pjsip_resolve": {
+        "num": 1
+    },
+    "pjsip_tel_uri_create": {
+        "num": 1
+    },
+    "pjsip_tel_nb_cmp": {
+        "num": 1
+    },
+    "pjsip_tsx_layer_init_module": {
+        "num": 1
+    },
+    "pjsip_tsx_layer_instance": {
+        "num": 1
+    },
+    "pjsip_tsx_layer_destroy": {
+        "num": 1
+    },
+    "pjsip_tsx_layer_get_tsx_count": {
+        "num": 1
+    },
+    "pjsip_tsx_layer_find_tsx": {
+        "num": 1
+    },
+    "pjsip_tsx_layer_find_tsx2": {
+        "num": 1
+    },
+    "pjsip_tsx_create_uac": {
+        "num": 1
+    },
+    "pjsip_tsx_create_uac2": {
+        "num": 1
+    },
+    "pjsip_tsx_create_uas": {
+        "num": 1
+    },
+    "pjsip_tsx_create_uas2": {
+        "num": 1
+    },
+    "pjsip_tsx_detect_merged_requests": {
+        "num": 1
+    },
+    "pjsip_tsx_set_transport": {
+        "num": 1
+    },
+    "pjsip_tsx_recv_msg": {
+        "num": 1
+    },
+    "pjsip_tsx_send_msg": {
+        "num": 1
+    },
+    "pjsip_tsx_retransmit_no_state": {
+        "num": 1
+    },
+    "pjsip_tsx_create_key": {
+        "num": 1
+    },
+    "pjsip_tsx_terminate": {
+        "num": 1
+    },
+    "pjsip_tsx_terminate_async": {
+        "num": 1
+    },
+    "pjsip_tsx_stop_retransmit": {
+        "num": 1
+    },
+    "pjsip_tsx_set_timeout": {
+        "num": 1
+    },
+    "pjsip_tsx_set_timers": {
+        "num": 1
+    },
+    "pjsip_tsx_initialize_timer_values": {
+        "num": 1
+    },
+    "pjsip_tsx_set_max_retransmit_count": {
+        "num": 1
+    },
+    "pjsip_rdata_get_tsx": {
+        "num": 1
+    },
+    "pjsip_tsx_layer_dump": {
+        "num": 1
+    },
+    "pjsip_tsx_state_str": {
+        "num": 1
+    },
+    "pjsip_role_name": {
+        "num": 1
+    },
+    "pjsip_transport_register_type": {
+        "num": 1
+    },
+    "pjsip_transport_get_type_from_name": {
+        "num": 1
+    },
+    "pjsip_transport_get_type_from_flag": {
+        "num": 1
+    },
+    "pjsip_transport_type_get_af": {
+        "num": 1
+    },
+    "pjsip_transport_get_flag_from_type": {
+        "num": 1
+    },
+    "pjsip_transport_get_default_port_for_type": {
+        "num": 1
+    },
+    "pjsip_transport_get_type_name": {
+        "num": 1
+    },
+    "pjsip_transport_get_type_desc": {
+        "num": 1
+    },
+    "pjsip_tpselector_add_ref": {
+        "num": 1
+    },
+    "pjsip_tpselector_dec_ref": {
+        "num": 1
+    },
+    "pjsip_rx_data_get_info": {
+        "num": 1
+    },
+    "pjsip_rx_data_clone": {
+        "num": 1
+    },
+    "pjsip_rx_data_free_cloned": {
+        "num": 1
+    },
+    "pjsip_tx_data_create": {
+        "num": 1
+    },
+    "pjsip_tx_data_add_ref": {
+        "num": 1
+    },
+    "pjsip_tx_data_dec_ref": {
+        "num": 1
+    },
+    "pjsip_tx_data_encode": {
+        "num": 1
+    },
+    "pjsip_tx_data_is_valid": {
+        "num": 1
+    },
+    "pjsip_tx_data_invalidate_msg": {
+        "num": 1
+    },
+    "pjsip_tx_data_get_info": {
+        "num": 1
+    },
+    "pjsip_tx_data_set_transport": {
+        "num": 1
+    },
+    "pjsip_tx_data_clone": {
+        "num": 1
+    },
+    "pjsip_transport_register": {
+        "num": 1
+    },
+    "pjsip_transport_shutdown": {
+        "num": 1
+    },
+    "pjsip_transport_shutdown2": {
+        "num": 1
+    },
+    "pjsip_transport_destroy": {
+        "num": 1
+    },
+    "pjsip_transport_add_ref": {
+        "num": 1
+    },
+    "pjsip_transport_dec_ref": {
+        "num": 1
+    },
+    "pjsip_tpmgr_receive_packet": {
+        "num": 1
+    },
+    "pjsip_tpmgr_register_tpfactory": {
+        "num": 1
+    },
+    "pjsip_tpmgr_unregister_tpfactory": {
+        "num": 1
+    },
+    "pjsip_tpmgr_create": {
+        "num": 1
+    },
+    "pjsip_tpmgr_find_local_addr": {
+        "num": 1
+    },
+    "pjsip_tpmgr_fla2_param_default": {
+        "num": 1
+    },
+    "pjsip_tpmgr_find_local_addr2": {
+        "num": 1
+    },
+    "pjsip_tpmgr_get_transport_count": {
+        "num": 1
+    },
+    "pjsip_tpmgr_destroy": {
+        "num": 1
+    },
+    "pjsip_tpmgr_dump_transports": {
+        "num": 1
+    },
+    "pjsip_tpmgr_shutdown_param_default": {
+        "num": 1
+    },
+    "pjsip_tpmgr_shutdown_all": {
+        "num": 1
+    },
+    "pjsip_tpmgr_acquire_transport": {
+        "num": 1
+    },
+    "pjsip_tpmgr_acquire_transport2": {
+        "num": 1
+    },
+    "pjsip_transport_send": {
+        "num": 1
+    },
+    "pjsip_tpmgr_send_raw": {
+        "num": 1
+    },
+    "pjsip_tpmgr_set_state_cb": {
+        "num": 1
+    },
+    "pjsip_tpmgr_get_state_cb": {
+        "num": 1
+    },
+    "pjsip_transport_add_state_listener": {
+        "num": 1
+    },
+    "pjsip_transport_remove_state_listener": {
+        "num": 1
+    },
+    "pjsip_tpmgr_set_drop_data_cb": {
+        "num": 1
+    },
+    "pjsip_tpmgr_set_recv_data_cb": {
+        "num": 1
+    },
+    "pjsip_loop_start": {
+        "num": 1
+    },
+    "pjsip_loop_set_discard": {
+        "num": 1
+    },
+    "pjsip_loop_set_failure": {
+        "num": 1
+    },
+    "pjsip_loop_set_recv_delay": {
+        "num": 1
+    },
+    "pjsip_loop_set_send_callback_delay": {
+        "num": 1
+    },
+    "pjsip_loop_set_delay": {
+        "num": 1
+    },
+    "pjsip_tcp_transport_cfg_default": {
+        "num": 1
+    },
+    "pjsip_tcp_transport_start": {
+        "num": 1
+    },
+    "pjsip_tcp_transport_start2": {
+        "num": 1
+    },
+    "pjsip_tcp_transport_start3": {
+        "num": 1
+    },
+    "pjsip_tcp_transport_get_socket": {
+        "num": 1
+    },
+    "pjsip_tcp_transport_lis_start": {
+        "num": 1
+    },
+    "pjsip_tcp_transport_restart": {
+        "num": 1
+    },
+    "pjsip_tls_setting_default": {
+        "num": 1
+    },
+    "pj_memset": {
+        "num": 1
+    },
+    "pjsip_tls_setting_copy": {
+        "num": 1
+    },
+    "pj_memcpy": {
+        "num": 1
+    },
+    "pj_strdup_with_null": {
+        "num": 1
+    },
+    "pj_strdup": {
+        "num": 1
+    },
+    "pjsip_tls_setting_wipe_keys": {
+        "num": 1
+    },
+    "pjsip_tls_transport_start": {
+        "num": 1
+    },
+    "pjsip_tls_transport_start2": {
+        "num": 1
+    },
+    "pjsip_tls_transport_lis_start": {
+        "num": 1
+    },
+    "pjsip_tls_transport_restart": {
+        "num": 1
+    },
+    "pjsip_udp_transport_cfg_default": {
+        "num": 1
+    },
+    "pjsip_udp_transport_start2": {
+        "num": 1
+    },
+    "pjsip_udp_transport_start": {
+        "num": 1
+    },
+    "pjsip_udp_transport_start6": {
+        "num": 1
+    },
+    "pjsip_udp_transport_attach": {
+        "num": 1
+    },
+    "pjsip_udp_transport_attach2": {
+        "num": 1
+    },
+    "pjsip_udp_transport_get_socket": {
+        "num": 1
+    },
+    "pjsip_udp_transport_pause": {
+        "num": 1
+    },
+    "pjsip_udp_transport_restart": {
+        "num": 1
+    },
+    "pjsip_udp_transport_restart2": {
+        "num": 1
+    },
+    "pjsip_exception_to_status": {
+        "num": 1
+    },
+    "pjsip_ua_init_module": {
+        "num": 1
+    },
+    "pjsip_ua_instance": {
+        "num": 1
+    },
+    "pjsip_ua_get_dlg_set_count": {
+        "num": 2
+    },
+    "pjsip_ua_find_dialog": {
+        "num": 1
+    },
+    "pjsip_ua_destroy": {
+        "num": 1
+    },
+    "pjsip_ua_dump": {
+        "num": 1
+    },
+    "pjsip_ua_get_endpt": {
+        "num": 1
+    },
+    "pjsip_ua_register_dlg": {
+        "num": 1
+    },
+    "pjsip_ua_unregister_dlg": {
+        "num": 1
+    },
+    "pjsip_param_find": {
+        "num": 1
+    },
+    "pjsip_param_clone": {
+        "num": 1
+    },
+    "pjsip_param_shallow_clone": {
+        "num": 1
+    },
+    "pjsip_param_print_on": {
+        "num": 1
+    },
+    "pjsip_sip_uri_create": {
+        "num": 1
+    },
+    "pjsip_sip_uri_set_secure": {
+        "num": 1
+    },
+    "pjsip_sip_uri_init": {
+        "num": 1
+    },
+    "pjsip_sip_uri_assign": {
+        "num": 1
+    },
+    "pjsip_name_addr_create": {
+        "num": 1
+    },
+    "pjsip_name_addr_init": {
+        "num": 1
+    },
+    "pjsip_name_addr_assign": {
+        "num": 1
+    },
+    "pjsip_other_uri_create": {
+        "num": 1
+    },
+    "pjsip_target_set_init": {
+        "num": 1
+    },
+    "": {
+        "num": 1
+    },
+    "pjsip_target_set_add_uri": {
+        "num": 1
+    },
+    "pjsip_target_set_add_from_msg": {
+        "num": 1
+    },
+    "pjsip_target_set_get_next": {
+        "num": 1
+    },
+    "pjsip_target_set_set_current": {
+        "num": 1
+    },
+    "pjsip_target_assign_status": {
+        "num": 1
+    },
+    "pjsip_endpt_create_request": {
+        "num": 1
+    },
+    "pjsip_endpt_create_request_from_hdr": {
+        "num": 1
+    },
+    "pjsip_endpt_create_response": {
+        "num": 1
+    },
+    "pjsip_endpt_create_ack": {
+        "num": 1
+    },
+    "pjsip_endpt_create_cancel": {
+        "num": 1
+    },
+    "pjsip_get_dest_info": {
+        "num": 1
+    },
+    "pjsip_get_request_dest": {
+        "num": 1
+    },
+    "pjsip_process_route_set": {
+        "num": 1
+    },
+    "pjsip_restore_strict_route_set": {
+        "num": 1
+    },
+    "pjsip_endpt_send_request_stateless": {
+        "num": 1
+    },
+    "pjsip_endpt_send_raw": {
+        "num": 1
+    },
+    "pjsip_endpt_send_raw_to_uri": {
+        "num": 1
+    },
+    "pjsip_get_response_addr": {
+        "num": 1
+    },
+    "pjsip_endpt_send_response": {
+        "num": 1
+    },
+    "pjsip_endpt_send_response2": {
+        "num": 1
+    },
+    "pjsip_endpt_respond_stateless": {
+        "num": 1
+    },
+    "pjsip_endpt_respond": {
+        "num": 1
+    },
+    "pjsip_endpt_send_request": {
+        "num": 1
+    },
+    "pjsip_endpt_create_request_fwd": {
+        "num": 1
+    },
+    "pjsip_endpt_create_response_fwd": {
+        "num": 1
+    },
+    "pjsip_calculate_branch_id": {
+        "num": 1
+    },
+    "pjsip_dlg_info_create": {
+        "num": 2
+    },
+    "pjsip_dlg_info_parse": {
+        "num": 2
+    },
+    "pjsip_dlg_info_print": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_info_construct": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_info_get_state": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_info_set_state": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_info_get_version": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_info_set_version": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_info_get_entity": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_info_set_entity": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_info_add_dialog": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_info_get_dialog": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_construct": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_get_id": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_set_id": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_get_call_id": {
+        "num": 2
+    },
+    "pjsip_dlg_info_dialog_set_call_id": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_get_remote_tag": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_set_remote_tag": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_get_local_tag": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_set_local_tag": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_get_direction": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_set_direction": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_get_state": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_set_state": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_get_duration": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_set_duration": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_get_local": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_add_local": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_get_remote": {
+        "num": 1
+    },
+    "pjsip_dlg_info_dialog_add_remote": {
+        "num": 1
+    },
+    "pjsip_dlg_info_local_construct": {
+        "num": 1
+    },
+    "pjsip_dlg_info_local_get_identity": {
+        "num": 1
+    },
+    "pjsip_dlg_info_local_add_identity": {
+        "num": 1
+    },
+    "pjsip_dlg_info_local_get_identity_display": {
+        "num": 1
+    },
+    "pjsip_dlg_info_local_set_identity_display": {
+        "num": 1
+    },
+    "pjsip_dlg_info_local_get_target_uri": {
+        "num": 1
+    },
+    "pjsip_dlg_info_local_set_target_uri": {
+        "num": 1
+    },
+    "pjsip_dlg_info_remote_construct": {
+        "num": 1
+    },
+    "pjsip_dlg_info_remote_get_identity": {
+        "num": 1
+    },
+    "pjsip_dlg_info_remote_add_identity": {
+        "num": 1
+    },
+    "pjsip_dlg_info_remote_get_identity_display": {
+        "num": 1
+    },
+    "pjsip_dlg_info_remote_set_identity_display": {
+        "num": 1
+    },
+    "pjsip_dlg_info_remote_get_target_uri": {
+        "num": 1
+    },
+    "pjsip_dlg_info_remote_set_target_uri": {
+        "num": 1
+    },
+    "pjsip_dlg_event_init_module": {
+        "num": 1
+    },
+    "pjsip_bdlg_event_instance": {
+        "num": 1
+    },
+    "pjsip_dlg_event_create_uac": {
+        "num": 1
+    },
+    "pjsip_dlg_event_terminate": {
+        "num": 1
+    },
+    "pjsip_dlg_event_initiate": {
+        "num": 1
+    },
+    "pjsip_dlg_event_add_header": {
+        "num": 1
+    },
+    "pjsip_dlg_event_accept": {
+        "num": 1
+    },
+    "pjsip_dlg_event_send_request": {
+        "num": 1
+    },
+    "pjsip_dlg_event_get_status": {
+        "num": 1
+    },
+    "pjsip_dlg_event_parse_dialog_info": {
+        "num": 1
+    },
+    "pjsip_dlg_event_parse_dialog_info2": {
+        "num": 1
+    },
+    "pjsipsimple_strerror": {
+        "num": 3
+    },
+    "pjsip_get_subscribe_method": {
+        "num": 1
+    },
+    "pjsip_get_notify_method": {
+        "num": 1
+    },
+    "pjsip_evsub_init_module": {
+        "num": 1
+    },
+    "pjsip_evsub_instance": {
+        "num": 1
+    },
+    "pjsip_evsub_register_pkg": {
+        "num": 1
+    },
+    "pjsip_evsub_get_allow_events_hdr": {
+        "num": 1
+    },
+    "pjsip_evsub_create_uac": {
+        "num": 1
+    },
+    "pjsip_evsub_create_uas": {
+        "num": 1
+    },
+    "pjsip_evsub_terminate": {
+        "num": 1
+    },
+    "pjsip_evsub_get_state": {
+        "num": 1
+    },
+    "pjsip_evsub_get_state_name": {
+        "num": 1
+    },
+    "pjsip_evsub_get_termination_reason": {
+        "num": 1
+    },
+    "pjsip_evsub_get_expires": {
+        "num": 1
+    },
+    "pjsip_evsub_initiate": {
+        "num": 1
+    },
+    "pjsip_evsub_add_header": {
+        "num": 1
+    },
+    "pjsip_evsub_accept": {
+        "num": 1
+    },
+    "pjsip_evsub_notify": {
+        "num": 1
+    },
+    "pjsip_evsub_current_notify": {
+        "num": 1
+    },
+    "pjsip_evsub_send_request": {
+        "num": 1
+    },
+    "pjsip_tsx_get_evsub": {
+        "num": 1
+    },
+    "pjsip_evsub_set_mod_data": {
+        "num": 1
+    },
+    "pjsip_evsub_get_mod_data": {
+        "num": 1
+    },
+    "pjsip_evsub_add_ref": {
+        "num": 1
+    },
+    "pjsip_evsub_dec_ref": {
+        "num": 1
+    },
+    "pjsip_evsub_uas_set_timeout": {
+        "num": 1
+    },
+    "pjsip_event_hdr_create": {
+        "num": 1
+    },
+    "pjsip_allow_events_hdr_create": {
+        "num": 1
+    },
+    "pjsip_sub_state_hdr_create": {
+        "num": 1
+    },
+    "pjsip_evsub_init_parser": {
+        "num": 1
+    },
+    "pjsip_iscomposing_create_xml": {
+        "num": 1
+    },
+    "pjsip_iscomposing_create_body": {
+        "num": 1
+    },
+    "pjsip_iscomposing_parse": {
+        "num": 1
+    },
+    "pjsip_mwi_init_module": {
+        "num": 1
+    },
+    "pjsip_mwi_instance": {
+        "num": 1
+    },
+    "pjsip_mwi_create_uac": {
+        "num": 1
+    },
+    "pjsip_mwi_create_uas": {
+        "num": 1
+    },
+    "pjsip_mwi_terminate": {
+        "num": 1
+    },
+    "pjsip_mwi_initiate": {
+        "num": 1
+    },
+    "pjsip_mwi_accept": {
+        "num": 1
+    },
+    "pjsip_mwi_notify": {
+        "num": 1
+    },
+    "pjsip_mwi_current_notify": {
+        "num": 1
+    },
+    "pjsip_mwi_send_request": {
+        "num": 1
+    },
+    "pjpidf_create": {
+        "num": 1
+    },
+    "pjpidf_parse": {
+        "num": 1
+    },
+    "pjpidf_print": {
+        "num": 1
+    },
+    "pjpidf_pres_construct": {
+        "num": 1
+    },
+    "pjpidf_pres_add_tuple": {
+        "num": 1
+    },
+    "pjpidf_pres_get_first_tuple": {
+        "num": 1
+    },
+    "pjpidf_pres_get_next_tuple": {
+        "num": 1
+    },
+    "pjpidf_pres_find_tuple": {
+        "num": 1
+    },
+    "pjpidf_pres_remove_tuple": {
+        "num": 1
+    },
+    "pjpidf_pres_add_note": {
+        "num": 1
+    },
+    "pjpidf_pres_get_first_note": {
+        "num": 1
+    },
+    "pjpidf_pres_get_next_note": {
+        "num": 1
+    },
+    "pjpidf_tuple_construct": {
+        "num": 1
+    },
+    "pjpidf_tuple_get_id": {
+        "num": 1
+    },
+    "pjpidf_tuple_set_id": {
+        "num": 1
+    },
+    "pjpidf_tuple_get_status": {
+        "num": 1
+    },
+    "pjpidf_tuple_get_contact": {
+        "num": 1
+    },
+    "pjpidf_tuple_set_contact": {
+        "num": 1
+    },
+    "pjpidf_tuple_set_contact_prio": {
+        "num": 1
+    },
+    "pjpidf_tuple_get_contact_prio": {
+        "num": 1
+    },
+    "pjpidf_tuple_add_note": {
+        "num": 1
+    },
+    "pjpidf_tuple_get_first_note": {
+        "num": 1
+    },
+    "pjpidf_tuple_get_next_note": {
+        "num": 1
+    },
+    "pjpidf_tuple_get_timestamp": {
+        "num": 1
+    },
+    "pjpidf_tuple_set_timestamp": {
+        "num": 1
+    },
+    "pjpidf_tuple_set_timestamp_np": {
+        "num": 1
+    },
+    "pjpidf_status_construct": {
+        "num": 1
+    },
+    "pjpidf_status_is_basic_open": {
+        "num": 1
+    },
+    "pjpidf_status_set_basic_open": {
+        "num": 1
+    },
+    "pjsip_pres_init_module": {
+        "num": 1
+    },
+    "pjsip_pres_instance": {
+        "num": 1
+    },
+    "pjsip_pres_create_uac": {
+        "num": 1
+    },
+    "pjsip_pres_create_uas": {
+        "num": 1
+    },
+    "pjsip_pres_terminate": {
+        "num": 1
+    },
+    "pjsip_pres_initiate": {
+        "num": 1
+    },
+    "pjsip_pres_add_header": {
+        "num": 1
+    },
+    "pjsip_pres_accept": {
+        "num": 1
+    },
+    "pjsip_pres_notify": {
+        "num": 1
+    },
+    "pjsip_pres_current_notify": {
+        "num": 1
+    },
+    "pjsip_pres_send_request": {
+        "num": 1
+    },
+    "pjsip_pres_get_status": {
+        "num": 1
+    },
+    "pjsip_pres_set_status": {
+        "num": 1
+    },
+    "pjsip_pres_create_pidf": {
+        "num": 1
+    },
+    "pjsip_pres_create_xpidf": {
+        "num": 1
+    },
+    "pjsip_pres_parse_pidf": {
+        "num": 1
+    },
+    "pjsip_pres_parse_pidf2": {
+        "num": 1
+    },
+    "pjsip_pres_parse_xpidf": {
+        "num": 1
+    },
+    "pjsip_pres_parse_xpidf2": {
+        "num": 1
+    },
+    "pjsip_publishc_opt_default": {
+        "num": 1
+    },
+    "pjsip_publishc_init_module": {
+        "num": 1
+    },
+    "pjsip_publishc_create": {
+        "num": 1
+    },
+    "pjsip_publishc_destroy": {
+        "num": 1
+    },
+    "pjsip_publishc_get_pool": {
+        "num": 1
+    },
+    "pjsip_publishc_init": {
+        "num": 1
+    },
+    "pjsip_publishc_set_credentials": {
+        "num": 1
+    },
+    "pjsip_publishc_set_route_set": {
+        "num": 1
+    },
+    "pjsip_publishc_set_headers": {
+        "num": 1
+    },
+    "pjsip_publishc_set_via_sent_by": {
+        "num": 1
+    },
+    "pjsip_publishc_publish": {
+        "num": 1
+    },
+    "pjsip_publishc_unpublish": {
+        "num": 1
+    },
+    "pjsip_publishc_update_expires": {
+        "num": 1
+    },
+    "pjsip_publishc_send": {
+        "num": 1
+    },
+    "pjrpid_element_dup": {
+        "num": 1
+    },
+    "pjrpid_add_element": {
+        "num": 1
+    },
+    "pjrpid_get_element": {
+        "num": 1
+    },
+    "pjxpidf_create": {
+        "num": 1
+    },
+    "pjxpidf_parse": {
+        "num": 1
+    },
+    "pjxpidf_print": {
+        "num": 1
+    },
+    "pjxpidf_get_uri": {
+        "num": 1
+    },
+    "pjxpidf_set_uri": {
+        "num": 1
+    },
+    "pjxpidf_get_status": {
+        "num": 1
+    },
+    "pjxpidf_set_status": {
+        "num": 1
+    },
+    "pjsip_get_prack_method": {
+        "num": 1
+    },
+    "pjsip_100rel_init_module": {
+        "num": 1
+    },
+    "pjsip_100rel_attach": {
+        "num": 1
+    },
+    "pjsip_100rel_is_reliable": {
+        "num": 1
+    },
+    "pjsip_100rel_create_prack": {
+        "num": 1
+    },
+    "pjsip_100rel_send_prack": {
+        "num": 1
+    },
+    "pjsip_100rel_on_rx_prack": {
+        "num": 1
+    },
+    "pjsip_100rel_tx_response": {
+        "num": 1
+    },
+    "pjsip_100rel_end_session": {
+        "num": 1
+    },
+    "pjsip_inv_usage_init": {
+        "num": 1
+    },
+    "pjsip_inv_usage_instance": {
+        "num": 1
+    },
+    "pjsip_inv_usage_dump": {
+        "num": 1
+    },
+    "pjsip_inv_create_uac": {
+        "num": 1
+    },
+    "pjsip_inv_verify_request": {
+        "num": 1
+    },
+    "pjsip_inv_verify_request2": {
+        "num": 1
+    },
+    "pjsip_inv_verify_request3": {
+        "num": 1
+    },
+    "pjsip_inv_create_uas": {
+        "num": 1
+    },
+    "pjsip_inv_add_ref": {
+        "num": 1
+    },
+    "pjsip_inv_dec_ref": {
+        "num": 1
+    },
+    "pjsip_inv_terminate": {
+        "num": 1
+    },
+    "pjsip_inv_uac_restart": {
+        "num": 1
+    },
+    "pjsip_inv_process_redirect": {
+        "num": 1
+    },
+    "pjsip_inv_invite": {
+        "num": 1
+    },
+    "pjsip_inv_initial_answer": {
+        "num": 1
+    },
+    "pjsip_inv_answer": {
+        "num": 1
+    },
+    "pjsip_inv_set_local_sdp": {
+        "num": 1
+    },
+    "pjsip_inv_set_sdp_answer": {
+        "num": 1
+    },
+    "pjsip_inv_end_session": {
+        "num": 1
+    },
+    "pjsip_inv_cancel_reinvite": {
+        "num": 1
+    },
+    "pjsip_inv_reinvite": {
+        "num": 1
+    },
+    "pjsip_inv_update": {
+        "num": 1
+    },
+    "pjsip_inv_create_ack": {
+        "num": 1
+    },
+    "pjsip_inv_send_msg": {
+        "num": 1
+    },
+    "pjsip_dlg_get_inv_session": {
+        "num": 1
+    },
+    "pjsip_tsx_get_inv_session": {
+        "num": 1
+    },
+    "pjsip_inv_state_name": {
+        "num": 1
+    },
+    "pjsip_create_sdp_body": {
+        "num": 1
+    },
+    "pjsip_create_multipart_sdp_body": {
+        "num": 1
+    },
+    "pjsip_get_sdp_info": {
+        "num": 1
+    },
+    "pjsip_rdata_get_sdp_info": {
+        "num": 1
+    },
+    "pjsip_rdata_get_sdp_info2": {
+        "num": 1
+    },
+    "pjsip_tdata_get_sdp_info": {
+        "num": 1
+    },
+    "pjsip_tdata_get_sdp_info2": {
+        "num": 1
+    },
+    "pjsip_regc_get_module": {
+        "num": 1
+    },
+    "pjsip_regc_create": {
+        "num": 1
+    },
+    "pjsip_regc_destroy": {
+        "num": 1
+    },
+    "pjsip_regc_destroy2": {
+        "num": 1
+    },
+    "pjsip_regc_get_info": {
+        "num": 1
+    },
+    "pjsip_regc_get_pool": {
+        "num": 1
+    },
+    "pjsip_regc_init": {
+        "num": 1
+    },
+    "pjsip_regc_add_ref": {
+        "num": 1
+    },
+    "pjsip_regc_dec_ref": {
+        "num": 1
+    },
+    "pjsip_regc_set_reg_tsx_cb": {
+        "num": 1
+    },
+    "pjsip_regc_set_via_sent_by": {
+        "num": 1
+    },
+    "pjsip_regc_set_delay_before_refresh": {
+        "num": 1
+    },
+    "pjsip_regc_set_credentials": {
+        "num": 1
+    },
+    "pjsip_regc_set_prefs": {
+        "num": 1
+    },
+    "pjsip_regc_set_route_set": {
+        "num": 1
+    },
+    "pjsip_regc_set_transport": {
+        "num": 1
+    },
+    "pjsip_regc_release_transport": {
+        "num": 1
+    },
+    "pjsip_regc_add_headers": {
+        "num": 1
+    },
+    "pjsip_regc_register": {
+        "num": 1
+    },
+    "pjsip_regc_unregister": {
+        "num": 1
+    },
+    "pjsip_regc_unregister_all": {
+        "num": 1
+    },
+    "pjsip_regc_update_contact": {
+        "num": 1
+    },
+    "pjsip_regc_update_expires": {
+        "num": 1
+    },
+    "pjsip_regc_send": {
+        "num": 1
+    },
+    "pjsip_replaces_init_module": {
+        "num": 1
+    },
+    "pjsip_replaces_hdr_create": {
+        "num": 1
+    },
+    "pjsip_replaces_verify_request": {
+        "num": 1
+    },
+    "pjsip_timer_init_module": {
+        "num": 1
+    },
+    "pjsip_timer_setting_default": {
+        "num": 1
+    },
+    "pjsip_timer_init_session": {
+        "num": 1
+    },
+    "pjsip_sess_expires_hdr_create": {
+        "num": 1
+    },
+    "pjsip_min_se_hdr_create": {
+        "num": 1
+    },
+    "pjsip_timer_update_req": {
+        "num": 1
+    },
+    "pjsip_timer_process_resp": {
+        "num": 1
+    },
+    "pjsip_timer_handle_refresh_error": {
+        "num": 1
+    },
+    "pjsip_timer_process_req": {
+        "num": 1
+    },
+    "pjsip_timer_update_resp": {
+        "num": 1
+    },
+    "pjsip_timer_end_session": {
+        "num": 1
+    },
+    "pjsip_get_refer_method": {
+        "num": 1
+    },
+    "pjsip_xfer_init_module": {
+        "num": 1
+    },
+    "pjsip_xfer_create_uac": {
+        "num": 1
+    },
+    "pjsip_xfer_create_uas": {
+        "num": 1
+    },
+    "pjsip_xfer_initiate": {
+        "num": 1
+    },
+    "pjsip_xfer_accept": {
+        "num": 1
+    },
+    "pjsip_xfer_notify": {
+        "num": 1
+    },
+    "pjsip_xfer_current_notify": {
+        "num": 1
+    },
+    "pjsip_xfer_send_request": {
+        "num": 1
+    },
+    "pjsua_logging_config_default": {
+        "num": 1
+    },
+    "pjsua_logging_config_dup": {
+        "num": 1
+    },
+    "pjsua_config_default": {
+        "num": 1
+    },
+    "pjsua_config_dup": {
+        "num": 1
+    },
+    "pjsua_msg_data_init": {
+        "num": 1
+    },
+    "pjsua_msg_data_clone": {
+        "num": 1
+    },
+    "pjsua_create": {
+        "num": 1
+    },
+    "pjsua_init": {
+        "num": 1
+    },
+    "pjsua_start": {
+        "num": 1
+    },
+    "pjsua_destroy": {
+        "num": 1
+    },
+    "pjsua_get_state": {
+        "num": 1
+    },
+    "pjsua_destroy2": {
+        "num": 1
+    },
+    "pjsua_handle_events": {
+        "num": 1
+    },
+    "pjsua_stop_worker_threads": {
+        "num": 1
+    },
+    "pjsua_pool_create": {
+        "num": 1
+    },
+    "pjsua_reconfigure_logging": {
+        "num": 1
+    },
+    "pjsua_get_pjsip_endpt": {
+        "num": 1
+    },
+    "pjsua_get_pjmedia_endpt": {
+        "num": 1
+    },
+    "pjsua_get_pool_factory": {
+        "num": 1
+    },
+    "pjsua_ip_change_param_default": {
+        "num": 1
+    },
+    "pjsua_detect_nat_type": {
+        "num": 1
+    },
+    "pjsua_get_nat_type": {
+        "num": 1
+    },
+    "pjsua_update_stun_servers": {
+        "num": 1
+    },
+    "pjsua_resolve_stun_servers": {
+        "num": 1
+    },
+    "pjsua_cancel_stun_resolution": {
+        "num": 1
+    },
+    "pjsua_verify_sip_url": {
+        "num": 1
+    },
+    "pjsua_verify_url": {
+        "num": 1
+    },
+    "pjsua_schedule_timer_dbg": {
+        "num": 1
+    },
+    "pjsua_schedule_timer2_dbg": {
+        "num": 1
+    },
+    "pjsua_cancel_timer": {
+        "num": 1
+    },
+    "pjsua_perror": {
+        "num": 1
+    },
+    "pjsua_dump": {
+        "num": 1
+    },
+    "pjsua_handle_ip_change": {
+        "num": 1
+    },
+    "pjsua_transport_config_default": {
+        "num": 1
+    },
+    "pjsua_transport_config_dup": {
+        "num": 1
+    },
+    "pjsua_transport_create": {
+        "num": 1
+    },
+    "pjsua_transport_register": {
+        "num": 1
+    },
+    "pjsua_tpfactory_register": {
+        "num": 1
+    },
+    "pjsua_enum_transports": {
+        "num": 1
+    },
+    "pjsua_transport_get_info": {
+        "num": 1
+    },
+    "pjsua_transport_set_enable": {
+        "num": 1
+    },
+    "pjsua_transport_close": {
+        "num": 1
+    },
+    "pjsua_transport_lis_start": {
+        "num": 1
+    },
+    "pjsua_ice_config_from_media_config": {
+        "num": 1
+    },
+    "pjsua_ice_config_dup": {
+        "num": 1
+    },
+    "pjsua_turn_config_from_media_config": {
+        "num": 1
+    },
+    "pjsua_turn_config_dup": {
+        "num": 1
+    },
+    "pjsua_srtp_opt_default": {
+        "num": 1
+    },
+    "pjsua_srtp_opt_dup": {
+        "num": 1
+    },
+    "pjsua_acc_config_default": {
+        "num": 1
+    },
+    "pjsua_acc_config_dup": {
+        "num": 1
+    },
+    "pjsua_acc_get_count": {
+        "num": 1
+    },
+    "pjsua_acc_is_valid": {
+        "num": 1
+    },
+    "pjsua_acc_set_default": {
+        "num": 1
+    },
+    "pjsua_acc_get_default": {
+        "num": 1
+    },
+    "pjsua_acc_add": {
+        "num": 1
+    },
+    "pjsua_acc_add_local": {
+        "num": 1
+    },
+    "pjsua_acc_set_user_data": {
+        "num": 1
+    },
+    "pjsua_acc_get_user_data": {
+        "num": 1
+    },
+    "pjsua_acc_del": {
+        "num": 1
+    },
+    "pjsua_acc_get_config": {
+        "num": 1
+    },
+    "pjsua_acc_modify": {
+        "num": 1
+    },
+    "pjsua_acc_set_online_status": {
+        "num": 1
+    },
+    "pjsua_acc_set_online_status2": {
+        "num": 1
+    },
+    "pjsua_acc_set_registration": {
+        "num": 1
+    },
+    "pjsua_acc_get_info": {
+        "num": 1
+    },
+    "pjsua_enum_accs": {
+        "num": 1
+    },
+    "pjsua_acc_enum_info": {
+        "num": 1
+    },
+    "pjsua_acc_find_for_outgoing": {
+        "num": 1
+    },
+    "pjsua_acc_find_for_incoming": {
+        "num": 1
+    },
+    "pjsua_acc_create_request": {
+        "num": 1
+    },
+    "pjsua_acc_create_uac_contact": {
+        "num": 1
+    },
+    "pjsua_acc_create_uas_contact": {
+        "num": 1
+    },
+    "pjsua_acc_set_transport": {
+        "num": 1
+    },
+    "pjsua_call_setting_default": {
+        "num": 1
+    },
+    "pjsua_call_vid_strm_op_param_default": {
+        "num": 1
+    },
+    "pjsua_call_send_dtmf_param_default": {
+        "num": 1
+    },
+    "pjsua_call_get_max_count": {
+        "num": 1
+    },
+    "pjsua_call_get_count": {
+        "num": 1
+    },
+    "pjsua_enum_calls": {
+        "num": 1
+    },
+    "pjsua_call_make_call": {
+        "num": 1
+    },
+    "pjsua_call_is_active": {
+        "num": 1
+    },
+    "pjsua_call_has_media": {
+        "num": 1
+    },
+    "pjsua_call_get_conf_port": {
+        "num": 1
+    },
+    "pjsua_call_get_vid_win": {
+        "num": 1
+    },
+    "pjsua_call_get_vid_conf_port": {
+        "num": 1
+    },
+    "pjsua_call_get_info": {
+        "num": 1
+    },
+    "pjsua_call_remote_has_cap": {
+        "num": 1
+    },
+    "pjsua_call_set_user_data": {
+        "num": 1
+    },
+    "pjsua_call_get_user_data": {
+        "num": 1
+    },
+    "pjsua_call_get_rem_nat_type": {
+        "num": 1
+    },
+    "pjsua_call_answer": {
+        "num": 1
+    },
+    "pjsua_call_answer2": {
+        "num": 1
+    },
+    "pjsua_call_answer_with_sdp": {
+        "num": 1
+    },
+    "pjsua_call_hangup": {
+        "num": 1
+    },
+    "pjsua_call_process_redirect": {
+        "num": 1
+    },
+    "pjsua_call_set_hold": {
+        "num": 1
+    },
+    "pjsua_call_set_hold2": {
+        "num": 1
+    },
+    "pjsua_call_reinvite": {
+        "num": 1
+    },
+    "pjsua_call_reinvite2": {
+        "num": 1
+    },
+    "pjsua_call_update": {
+        "num": 1
+    },
+    "pjsua_call_update2": {
+        "num": 1
+    },
+    "pjsua_call_xfer": {
+        "num": 1
+    },
+    "pjsua_call_xfer_replaces": {
+        "num": 1
+    },
+    "pjsua_call_dial_dtmf": {
+        "num": 1
+    },
+    "pjsua_call_send_dtmf": {
+        "num": 1
+    },
+    "pjsua_call_send_im": {
+        "num": 1
+    },
+    "pjsua_call_send_typing_ind": {
+        "num": 1
+    },
+    "pjsua_call_send_request": {
+        "num": 1
+    },
+    "pjsua_call_hangup_all": {
+        "num": 1
+    },
+    "pjsua_call_dump": {
+        "num": 1
+    },
+    "pjsua_call_get_vid_stream_idx": {
+        "num": 1
+    },
+    "pjsua_call_vid_stream_is_running": {
+        "num": 1
+    },
+    "pjsua_call_set_vid_strm": {
+        "num": 1
+    },
+    "pjsua_call_vid_stream_modify_codec_param": {
+        "num": 1
+    },
+    "pjsua_call_aud_stream_modify_codec_param": {
+        "num": 1
+    },
+    "pjsua_call_get_stream_info": {
+        "num": 1
+    },
+    "pjsua_call_get_stream_stat": {
+        "num": 1
+    },
+    "pjsua_call_get_med_transport_info": {
+        "num": 1
+    },
+    "pjsua_buddy_config_default": {
+        "num": 1
+    },
+    "pjsua_get_buddy_count": {
+        "num": 1
+    },
+    "pjsua_buddy_is_valid": {
+        "num": 1
+    },
+    "pjsua_enum_buddies": {
+        "num": 1
+    },
+    "pjsua_buddy_find": {
+        "num": 1
+    },
+    "pjsua_buddy_get_info": {
+        "num": 1
+    },
+    "pjsua_buddy_get_dlg_event_info": {
+        "num": 1
+    },
+    "pjsua_buddy_set_user_data": {
+        "num": 1
+    },
+    "pjsua_buddy_get_user_data": {
+        "num": 1
+    },
+    "pjsua_buddy_add": {
+        "num": 1
+    },
+    "pjsua_buddy_del": {
+        "num": 1
+    },
+    "pjsua_buddy_subscribe_pres": {
+        "num": 1
+    },
+    "pjsua_buddy_subscribe_dlg_event": {
+        "num": 1
+    },
+    "pjsua_buddy_update_pres": {
+        "num": 1
+    },
+    "pjsua_buddy_update_dlg_event": {
+        "num": 1
+    },
+    "pjsua_pres_notify": {
+        "num": 1
+    },
+    "pjsua_pres_dump": {
+        "num": 1
+    },
+    "pjsua_im_send": {
+        "num": 1
+    },
+    "pjsua_im_typing": {
+        "num": 1
+    },
+    "pjsua_media_config_default": {
+        "num": 1
+    },
+    "pjsua_snd_dev_param_default": {
+        "num": 1
+    },
+    "pjsua_conf_connect_param_default": {
+        "num": 1
+    },
+    "pjsua_conf_get_max_ports": {
+        "num": 1
+    },
+    "pjsua_conf_get_active_ports": {
+        "num": 1
+    },
+    "pjsua_enum_conf_ports": {
+        "num": 1
+    },
+    "pjsua_conf_get_port_info": {
+        "num": 1
+    },
+    "pjsua_conf_add_port": {
+        "num": 1
+    },
+    "pjsua_conf_remove_port": {
+        "num": 1
+    },
+    "pjsua_conf_connect": {
+        "num": 1
+    },
+    "pjsua_conf_connect2": {
+        "num": 1
+    },
+    "pjsua_conf_disconnect": {
+        "num": 1
+    },
+    "pjsua_conf_adjust_tx_level": {
+        "num": 1
+    },
+    "pjsua_conf_adjust_rx_level": {
+        "num": 1
+    },
+    "pjsua_conf_get_signal_level": {
+        "num": 1
+    },
+    "pjsua_player_create": {
+        "num": 1
+    },
+    "pjsua_playlist_create": {
+        "num": 1
+    },
+    "pjsua_player_get_conf_port": {
+        "num": 1
+    },
+    "pjsua_player_get_port": {
+        "num": 1
+    },
+    "pjsua_player_get_info": {
+        "num": 1
+    },
+    "pjsua_player_get_pos": {
+        "num": 1
+    },
+    "pjsua_player_set_pos": {
+        "num": 1
+    },
+    "pjsua_player_destroy": {
+        "num": 1
+    },
+    "pjsua_recorder_create": {
+        "num": 1
+    },
+    "pjsua_recorder_get_conf_port": {
+        "num": 1
+    },
+    "pjsua_recorder_get_port": {
+        "num": 1
+    },
+    "pjsua_recorder_destroy": {
+        "num": 1
+    },
+    "pjsua_enum_aud_devs": {
+        "num": 1
+    },
+    "pjsua_enum_snd_devs": {
+        "num": 1
+    },
+    "pjsua_get_snd_dev": {
+        "num": 1
+    },
+    "pjsua_set_snd_dev": {
+        "num": 1
+    },
+    "pjsua_get_snd_dev2": {
+        "num": 1
+    },
+    "pjsua_set_snd_dev2": {
+        "num": 1
+    },
+    "pjsua_set_null_snd_dev": {
+        "num": 1
+    },
+    "pjsua_set_no_snd_dev": {
+        "num": 1
+    },
+    "pjsua_set_ec": {
+        "num": 1
+    },
+    "pjsua_get_ec_tail": {
+        "num": 1
+    },
+    "pjsua_get_ec_stat": {
+        "num": 1
+    },
+    "pjsua_snd_is_active": {
+        "num": 1
+    },
+    "pjsua_snd_set_setting": {
+        "num": 1
+    },
+    "pjsua_snd_get_setting": {
+        "num": 1
+    },
+    "pjsua_ext_snd_dev_create": {
+        "num": 1
+    },
+    "pjsua_ext_snd_dev_destroy": {
+        "num": 1
+    },
+    "pjsua_ext_snd_dev_get_snd_port": {
+        "num": 1
+    },
+    "pjsua_ext_snd_dev_get_conf_port": {
+        "num": 1
+    },
+    "pjsua_enum_codecs": {
+        "num": 1
+    },
+    "pjsua_codec_set_priority": {
+        "num": 1
+    },
+    "pjsua_codec_get_param": {
+        "num": 1
+    },
+    "pjsua_codec_set_param": {
+        "num": 1
+    },
+    "pjsua_vid_dev_count": {
+        "num": 1
+    },
+    "pjsua_vid_dev_get_info": {
+        "num": 1
+    },
+    "pjsua_vid_dev_is_active": {
+        "num": 1
+    },
+    "pjsua_vid_dev_set_setting": {
+        "num": 1
+    },
+    "pjsua_vid_dev_get_setting": {
+        "num": 1
+    },
+    "pjsua_vid_enum_devs": {
+        "num": 1
+    },
+    "pjsua_vid_preview_param_default": {
+        "num": 1
+    },
+    "pjsua_vid_preview_has_native": {
+        "num": 1
+    },
+    "pjsua_vid_preview_start": {
+        "num": 1
+    },
+    "pjsua_vid_preview_get_win": {
+        "num": 1
+    },
+    "pjsua_vid_preview_get_vid_conf_port": {
+        "num": 1
+    },
+    "pjsua_vid_preview_stop": {
+        "num": 1
+    },
+    "pjsua_vid_enum_wins": {
+        "num": 1
+    },
+    "pjsua_vid_win_get_info": {
+        "num": 1
+    },
+    "pjsua_vid_win_set_show": {
+        "num": 1
+    },
+    "pjsua_vid_win_set_pos": {
+        "num": 1
+    },
+    "pjsua_vid_win_set_size": {
+        "num": 1
+    },
+    "pjsua_vid_win_set_win": {
+        "num": 1
+    },
+    "pjsua_vid_win_rotate": {
+        "num": 1
+    },
+    "pjsua_vid_win_set_fullscreen": {
+        "num": 1
+    },
+    "pjsua_vid_enum_codecs": {
+        "num": 1
+    },
+    "pjsua_vid_codec_set_priority": {
+        "num": 1
+    },
+    "pjsua_vid_codec_get_param": {
+        "num": 1
+    },
+    "pjsua_vid_codec_set_param": {
+        "num": 1
+    },
+    "pjsua_vid_conf_get_active_ports": {
+        "num": 1
+    },
+    "pjsua_vid_conf_enum_ports": {
+        "num": 1
+    },
+    "pjsua_vid_conf_get_port_info": {
+        "num": 1
+    },
+    "pjsua_vid_conf_add_port": {
+        "num": 1
+    },
+    "pjsua_vid_conf_remove_port": {
+        "num": 1
+    },
+    "pjsua_vid_conf_connect": {
+        "num": 1
+    },
+    "pjsua_vid_conf_disconnect": {
+        "num": 1
+    },
+    "pjsua_vid_conf_update_port": {
+        "num": 1
+    },
+    "PJ_DECL_LIST_MEMBER": {
+        "num": 5
+    },
+    "pjsua_media_apply_xml_control": {
+        "num": 1
+    },
+    "resolve_stun_server": {
+        "num": 1
+    },
+    "normalize_route_uri": {
+        "num": 1
+    },
+    "pjsua_sip_acc_is_using_stun": {
+        "num": 1
+    },
+    "pjsua_media_acc_is_using_stun": {
+        "num": 1
+    },
+    "pjsua_sip_acc_is_using_upnp": {
+        "num": 1
+    },
+    "pjsua_media_acc_is_using_upnp": {
+        "num": 1
+    },
+    "pjsua_sip_acc_is_using_ipv6": {
+        "num": 1
+    },
+    "pjsua_acc_get_uac_addr": {
+        "num": 1
+    },
+    "pjsua_call_on_incoming": {
+        "num": 1
+    },
+    "pjsua_media_channel_init": {
+        "num": 1
+    },
+    "pjsua_media_channel_create_sdp": {
+        "num": 1
+    },
+    "pjsua_media_channel_update": {
+        "num": 1
+    },
+    "pjsua_media_channel_deinit": {
+        "num": 1
+    },
+    "pjsua_ice_check_start_trickling": {
+        "num": 1
+    },
+    "pjsua_call_media_is_changing": {
+        "num": 1
+    },
+    "pjsua_call_media_init": {
+        "num": 1
+    },
+    "pjsua_call_cleanup_flag": {
+        "num": 1
+    },
+    "pjsua_set_media_tp_state": {
+        "num": 1
+    },
+    "pjsua_media_prov_clean_up": {
+        "num": 1
+    },
+    "pjsua_media_prov_revert": {
+        "num": 1
+    },
+    "on_media_event": {
+        "num": 3
+    },
+    "call_med_event_cb": {
+        "num": 1
+    },
+    "call_media_on_event": {
+        "num": 1
+    },
+    "pjsua_pres_init": {
+        "num": 1
+    },
+    "pjsua_pres_start": {
+        "num": 1
+    },
+    "pjsua_pres_refresh": {
+        "num": 1
+    },
+    "pjsua_pres_update_acc": {
+        "num": 1
+    },
+    "pjsua_pres_shutdown": {
+        "num": 1
+    },
+    "pjsua_pres_init_acc": {
+        "num": 1
+    },
+    "pjsua_pres_init_publish_acc": {
+        "num": 1
+    },
+    "pjsua_pres_unpublish": {
+        "num": 1
+    },
+    "pjsua_pres_delete_acc": {
+        "num": 1
+    },
+    "pjsua_im_init": {
+        "num": 1
+    },
+    "pjsua_start_mwi": {
+        "num": 1
+    },
+    "pjsua_call_subsys_init": {
+        "num": 1
+    },
+    "pjsua_call_subsys_start": {
+        "num": 1
+    },
+    "pjsua_media_subsys_init": {
+        "num": 1
+    },
+    "pjsua_media_subsys_start": {
+        "num": 1
+    },
+    "pjsua_media_subsys_destroy": {
+        "num": 1
+    },
+    "pjsua_im_accept_pager": {
+        "num": 1
+    },
+    "pjsua_im_process_pager": {
+        "num": 1
+    },
+    "pjsua_im_create_accept": {
+        "num": 1
+    },
+    "pjsua_process_msg_data": {
+        "num": 1
+    },
+    "pjsua_set_msg_route_set": {
+        "num": 1
+    },
+    "pjsua_parse_media_type": {
+        "num": 1
+    },
+    "pjsua_init_tpselector": {
+        "num": 2
+    },
+    "on_dlg_forked": {
+        "num": 2
+    },
+    "acquire_call": {
+        "num": 1
+    },
+    "good_number": {
+        "num": 1
+    },
+    "print_call": {
+        "num": 1
+    },
+    "pjsua_aud_subsys_init": {
+        "num": 1
+    },
+    "pjsua_aud_subsys_start": {
+        "num": 1
+    },
+    "pjsua_aud_subsys_destroy": {
+        "num": 1
+    },
+    "pjsua_aud_stop_stream": {
+        "num": 1
+    },
+    "pjsua_aud_channel_update": {
+        "num": 1
+    },
+    "pjsua_check_snd_dev_idle": {
+        "num": 1
+    },
+    "pjsua_vid_subsys_init": {
+        "num": 1
+    },
+    "pjsua_vid_subsys_start": {
+        "num": 1
+    },
+    "pjsua_vid_subsys_destroy": {
+        "num": 1
+    },
+    "pjsua_vid_stop_stream": {
+        "num": 1
+    },
+    "pjsua_vid_channel_init": {
+        "num": 1
+    },
+    "pjsua_vid_channel_update": {
+        "num": 1
+    },
+    "pjsua_call_schedule_reinvite_check": {
+        "num": 1
+    },
+    "pjsua_acc_update_contact_on_ip_change": {
+        "num": 1
+    },
+    "pjsua_acc_handle_call_on_ip_change": {
+        "num": 1
+    },
+    "pjsua_acc_end_ip_change": {
+        "num": 1
+    },
+    "readObject": {
+        "num": 38
+    },
+    "writeObject": {
+        "num": 38
+    },
+    "AccountRegConfig": {
+        "num": 1
+    },
+    "operator=": {
+        "num": 49
+    },
+    "~AccountRegConfig": {
+        "num": 1
+    },
+    "AccountSipConfig": {
+        "num": 1
+    },
+    "~AccountSipConfig": {
+        "num": 1
+    },
+    "AccountCallConfig": {
+        "num": 2
+    },
+    "~AccountCallConfig": {
+        "num": 1
+    },
+    "AccountPresConfig": {
+        "num": 1
+    },
+    "~AccountPresConfig": {
+        "num": 1
+    },
+    "AccountMwiConfig": {
+        "num": 1
+    },
+    "~AccountMwiConfig": {
+        "num": 1
+    },
+    "AccountNatConfig": {
+        "num": 2
+    },
+    "~AccountNatConfig": {
+        "num": 1
+    },
+    "fromPj": {
+        "num": 92
+    },
+    "toPj": {
+        "num": 43
+    },
+    "SrtpOpt": {
+        "num": 3
+    },
+    "~SrtpOpt": {
+        "num": 1
+    },
+    "RtcpFbCap": {
+        "num": 1
+    },
+    "RtcpFbConfig": {
+        "num": 3
+    },
+    "~RtcpFbConfig": {
+        "num": 1
+    },
+    "AccountMediaConfig": {
+        "num": 2
+    },
+    "~AccountMediaConfig": {
+        "num": 1
+    },
+    "AccountVideoConfig": {
+        "num": 2
+    },
+    "~AccountVideoConfig": {
+        "num": 1
+    },
+    "~AccountIpChangeConfig": {
+        "num": 1
+    },
+    "AccountIpChangeConfig": {
+        "num": 1
+    },
+    "AccountConfig": {
+        "num": 3
+    },
+    "~AccountConfig": {
+        "num": 1
+    },
+    "AccountInfo": {
+        "num": 1
+    },
+    "match": {
+        "num": 1
+    },
+    "~FindBuddyMatch": {
+        "num": 1
+    },
+    "Account": {
+        "num": 2
+    },
+    "~Account": {
+        "num": 2
+    },
+    "create": {
+        "num": 4
+    },
+    "shutdown": {
+        "num": 2
+    },
+    "modify": {
+        "num": 2
+    },
+    "isValid": {
+        "num": 4
+    },
+    "setDefault": {
+        "num": 2
+    },
+    "isDefault": {
+        "num": 2
+    },
+    "getId": {
+        "num": 5
+    },
+    "lookup": {
+        "num": 3
+    },
+    "getInfo": {
+        "num": 8
+    },
+    "setRegistration": {
+        "num": 2
+    },
+    "setOnlineStatus": {
+        "num": 2
+    },
+    "setTransport": {
+        "num": 2
+    },
+    "presNotify": {
+        "num": 2
+    },
+    "enumBuddies2": {
+        "num": 2
+    },
+    "findBuddy2": {
+        "num": 2
+    },
+    "onIncomingCall": {
+        "num": 1
+    },
+    "onRegStarted": {
+        "num": 1
+    },
+    "onRegState": {
+        "num": 1
+    },
+    "onIncomingSubscribe": {
+        "num": 1
+    },
+    "onInstantMessage": {
+        "num": 2
+    },
+    "onInstantMessageStatus": {
+        "num": 2
+    },
+    "onTypingIndication": {
+        "num": 2
+    },
+    "onMwiInfo": {
+        "num": 1
+    },
+    "addBuddy": {
+        "num": 2
+    },
+    "removeBuddy": {
+        "num": 2
+    },
+    "MathStat": {
+        "num": 1
+    },
+    "CallSetting": {
+        "num": 2
+    },
+    "isEmpty": {
+        "num": 6
+    },
+    "CallMediaInfo": {
+        "num": 1
+    },
+    "CallInfo": {
+        "num": 1
+    },
+    "StreamInfo": {
+        "num": 1
+    },
+    "CallOpParam": {
+        "num": 1
+    },
+    "CallSendRequestParam": {
+        "num": 1
+    },
+    "CallVidSetStreamParam": {
+        "num": 1
+    },
+    "CallSendDtmfParam": {
+        "num": 1
+    },
+    "Call": {
+        "num": 1
+    },
+    "~Call": {
+        "num": 1
+    },
+    "isActive": {
+        "num": 1
+    },
+    "hasMedia": {
+        "num": 1
+    },
+    "getMedia": {
+        "num": 1
+    },
+    "getAudioMedia": {
+        "num": 1
+    },
+    "getEncodingVideoMedia": {
+        "num": 1
+    },
+    "getDecodingVideoMedia": {
+        "num": 1
+    },
+    "remoteHasCap": {
+        "num": 1
+    },
+    "setUserData": {
+        "num": 1
+    },
+    "getUserData": {
+        "num": 1
+    },
+    "getRemNatType": {
+        "num": 1
+    },
+    "makeCall": {
+        "num": 1
+    },
+    "answer": {
+        "num": 1
+    },
+    "hangup": {
+        "num": 1
+    },
+    "setHold": {
+        "num": 1
+    },
+    "reinvite": {
+        "num": 1
+    },
+    "update": {
+        "num": 3
+    },
+    "xfer": {
+        "num": 1
+    },
+    "xferReplaces": {
+        "num": 1
+    },
+    "processRedirect": {
+        "num": 1
+    },
+    "dialDtmf": {
+        "num": 1
+    },
+    "sendDtmf": {
+        "num": 1
+    },
+    "sendInstantMessage": {
+        "num": 3
+    },
+    "sendTypingIndication": {
+        "num": 3
+    },
+    "sendRequest": {
+        "num": 1
+    },
+    "dump": {
+        "num": 1
+    },
+    "vidGetStreamIdx": {
+        "num": 1
+    },
+    "vidStreamIsRunning": {
+        "num": 1
+    },
+    "vidSetStream": {
+        "num": 1
+    },
+    "vidStreamModifyCodecParam": {
+        "num": 1
+    },
+    "audStreamModifyCodecParam": {
+        "num": 1
+    },
+    "getStreamInfo": {
+        "num": 1
+    },
+    "getStreamStat": {
+        "num": 1
+    },
+    "getMedTransportInfo": {
+        "num": 1
+    },
+    "processMediaUpdate": {
+        "num": 1
+    },
+    "processStateChange": {
+        "num": 1
+    },
+    "onCallState": {
+        "num": 1
+    },
+    "onCallTsxState": {
+        "num": 1
+    },
+    "onCallMediaState": {
+        "num": 1
+    },
+    "onCallSdpCreated": {
+        "num": 1
+    },
+    "onStreamPreCreate": {
+        "num": 1
+    },
+    "onStreamCreated": {
+        "num": 1
+    },
+    "onStreamDestroyed": {
+        "num": 1
+    },
+    "onDtmfDigit": {
+        "num": 1
+    },
+    "onDtmfEvent": {
+        "num": 1
+    },
+    "onCallTransferRequest": {
+        "num": 1
+    },
+    "onCallTransferStatus": {
+        "num": 1
+    },
+    "onCallReplaceRequest": {
+        "num": 1
+    },
+    "onCallReplaced": {
+        "num": 1
+    },
+    "onCallRxOffer": {
+        "num": 1
+    },
+    "onCallRxReinvite": {
+        "num": 1
+    },
+    "onCallTxOffer": {
+        "num": 1
+    },
+    "onCallRedirected": {
+        "num": 1
+    },
+    "onCallMediaTransportState": {
+        "num": 1
+    },
+    "onCallMediaEvent": {
+        "num": 1
+    },
+    "onCreateMediaTransport": {
+        "num": 1
+    },
+    "onCreateMediaTransportSrtp": {
+        "num": 1
+    },
+    "SslCertName": {
+        "num": 1
+    },
+    "SslCertInfo": {
+        "num": 2
+    },
+    "TlsInfo": {
+        "num": 2
+    },
+    "IpChangeParam": {
+        "num": 2
+    },
+    "UaConfig": {
+        "num": 3
+    },
+    "~UaConfig": {
+        "num": 1
+    },
+    "~LogWriter": {
+        "num": 1
+    },
+    "write": {
+        "num": 1
+    },
+    "LogConfig": {
+        "num": 3
+    },
+    "~LogConfig": {
+        "num": 1
+    },
+    "MediaConfig": {
+        "num": 3
+    },
+    "~MediaConfig": {
+        "num": 1
+    },
+    "EpConfig": {
+        "num": 1
+    },
+    "~EpConfig": {
+        "num": 1
+    },
+    "execute": {
+        "num": 6
+    },
+    "~PendingJob": {
+        "num": 1
+    },
+    "instance": {
+        "num": 2
+    },
+    "Endpoint": {
+        "num": 2
+    },
+    "~Endpoint": {
+        "num": 2
+    },
+    "libVersion": {
+        "num": 2
+    },
+    "libCreate": {
+        "num": 2
+    },
+    "libGetState": {
+        "num": 2
+    },
+    "libInit": {
+        "num": 2
+    },
+    "libStart": {
+        "num": 2
+    },
+    "libRegisterThread": {
+        "num": 2
+    },
+    "libIsThreadRegistered": {
+        "num": 2
+    },
+    "libStopWorkerThreads": {
+        "num": 2
+    },
+    "libHandleEvents": {
+        "num": 2
+    },
+    "libDestroy": {
+        "num": 2
+    },
+    "utilStrError": {
+        "num": 2
+    },
+    "utilLogWrite": {
+        "num": 4
+    },
+    "utilVerifySipUri": {
+        "num": 2
+    },
+    "utilVerifyUri": {
+        "num": 2
+    },
+    "utilTimerSchedule": {
+        "num": 2
+    },
+    "utilTimerCancel": {
+        "num": 2
+    },
+    "utilAddPendingJob": {
+        "num": 2
+    },
+    "utilSslGetAvailableCiphers": {
+        "num": 2
+    },
+    "natDetectType": {
+        "num": 2
+    },
+    "natGetType": {
+        "num": 2
+    },
+    "natUpdateStunServers": {
+        "num": 2
+    },
+    "natCheckStunServers": {
+        "num": 2
+    },
+    "natCancelCheckStunServers": {
+        "num": 2
+    },
+    "transportCreate": {
+        "num": 2
+    },
+    "transportEnum": {
+        "num": 2
+    },
+    "transportGetInfo": {
+        "num": 2
+    },
+    "transportSetEnable": {
+        "num": 2
+    },
+    "transportClose": {
+        "num": 2
+    },
+    "transportShutdown": {
+        "num": 2
+    },
+    "hangupAllCalls": {
+        "num": 2
+    },
+    "mediaAdd": {
+        "num": 2
+    },
+    "mediaRemove": {
+        "num": 2
+    },
+    "mediaExists": {
+        "num": 2
+    },
+    "mediaMaxPorts": {
+        "num": 2
+    },
+    "mediaActivePorts": {
+        "num": 2
+    },
+    "mediaEnumPorts2": {
+        "num": 2
+    },
+    "mediaEnumVidPorts": {
+        "num": 2
+    },
+    "audDevManager": {
+        "num": 2
+    },
+    "vidDevManager": {
+        "num": 2
+    },
+    "codecEnum2": {
+        "num": 2
+    },
+    "codecSetPriority": {
+        "num": 2
+    },
+    "codecGetParam": {
+        "num": 2
+    },
+    "codecSetParam": {
+        "num": 2
+    },
+    "videoCodecEnum2": {
+        "num": 2
+    },
+    "videoCodecSetPriority": {
+        "num": 2
+    },
+    "getVideoCodecParam": {
+        "num": 2
+    },
+    "setVideoCodecParam": {
+        "num": 2
+    },
+    "resetVideoCodecParam": {
+        "num": 2
+    },
+    "getCodecOpusConfig": {
+        "num": 2
+    },
+    "setCodecOpusConfig": {
+        "num": 2
+    },
+    "srtpCryptoEnum": {
+        "num": 2
+    },
+    "handleIpChange": {
+        "num": 2
+    },
+    "onNatDetectionComplete": {
+        "num": 1
+    },
+    "onNatCheckStunServersComplete": {
+        "num": 1
+    },
+    "onTransportState": {
+        "num": 1
+    },
+    "onTimer": {
+        "num": 1
+    },
+    "onSelectAccount": {
+        "num": 1
+    },
+    "onIpChangeProgress": {
+        "num": 1
+    },
+    "onMediaEvent": {
+        "num": 1
+    },
+    "onCredAuth": {
+        "num": 2
+    },
+    "onRejectedIncomingCall": {
+        "num": 1
+    },
+    "performPendingJobs": {
+        "num": 2
+    },
+    "logFunc": {
+        "num": 2
+    },
+    "stun_resolve_cb": {
+        "num": 2
+    },
+    "on_timer": {
+        "num": 3
+    },
+    "on_nat_detect": {
+        "num": 2
+    },
+    "on_transport_state": {
+        "num": 2
+    },
+    "lookupAcc": {
+        "num": 2
+    },
+    "lookupCall": {
+        "num": 2
+    },
+    "on_incoming_call": {
+        "num": 2
+    },
+    "on_reg_started": {
+        "num": 2
+    },
+    "on_reg_state2": {
+        "num": 2
+    },
+    "on_incoming_subscribe": {
+        "num": 2
+    },
+    "on_pager2": {
+        "num": 2
+    },
+    "on_pager_status2": {
+        "num": 2
+    },
+    "on_typing2": {
+        "num": 2
+    },
+    "on_mwi_info": {
+        "num": 2
+    },
+    "on_acc_find_for_incoming": {
+        "num": 2
+    },
+    "on_buddy_state": {
+        "num": 2
+    },
+    "on_buddy_evsub_state": {
+        "num": 2
+    },
+    "on_call_state": {
+        "num": 2
+    },
+    "on_call_tsx_state": {
+        "num": 2
+    },
+    "on_call_media_state": {
+        "num": 2
+    },
+    "on_call_sdp_created": {
+        "num": 2
+    },
+    "on_stream_precreate": {
+        "num": 2
+    },
+    "on_stream_created2": {
+        "num": 2
+    },
+    "on_stream_destroyed": {
+        "num": 2
+    },
+    "on_dtmf_digit": {
+        "num": 2
+    },
+    "on_dtmf_digit2": {
+        "num": 2
+    },
+    "on_dtmf_event": {
+        "num": 2
+    },
+    "on_call_transfer_request": {
+        "num": 1
+    },
+    "on_call_transfer_request2": {
+        "num": 2
+    },
+    "on_call_transfer_status": {
+        "num": 2
+    },
+    "on_call_replace_request": {
+        "num": 1
+    },
+    "on_call_replace_request2": {
+        "num": 2
+    },
+    "on_call_replaced": {
+        "num": 2
+    },
+    "on_call_rx_offer": {
+        "num": 2
+    },
+    "on_call_rx_reinvite": {
+        "num": 2
+    },
+    "on_call_tx_offer": {
+        "num": 2
+    },
+    "on_call_redirected": {
+        "num": 2
+    },
+    "on_call_media_transport_state": {
+        "num": 2
+    },
+    "on_call_media_event": {
+        "num": 2
+    },
+    "on_create_media_transport": {
+        "num": 2
+    },
+    "on_create_media_transport_srtp": {
+        "num": 2
+    },
+    "on_ip_change_progress": {
+        "num": 2
+    },
+    "on_auth_create_aka_response_callback": {
+        "num": 2
+    },
+    "on_rejected_incoming_call": {
+        "num": 2
+    },
+    "clearCodecInfoList": {
+        "num": 2
+    },
+    "updateCodecInfoList": {
+        "num": 2
+    },
+    "JsonDocument": {
+        "num": 3
+    },
+    "~JsonDocument": {
+        "num": 2
+    },
+    "loadFile": {
+        "num": 3
+    },
+    "loadString": {
+        "num": 3
+    },
+    "saveFile": {
+        "num": 3
+    },
+    "saveString": {
+        "num": 3
+    },
+    "getRootContainer": {
+        "num": 3
+    },
+    "allocElement": {
+        "num": 2
+    },
+    "getPool": {
+        "num": 2
+    },
+    "initRoot": {
+        "num": 2
+    },
+    "MediaFormat": {
+        "num": 2
+    },
+    "~MediaFormat": {
+        "num": 1
+    },
+    "MediaFormatAudio": {
+        "num": 1
+    },
+    "init": {
+        "num": 3
+    },
+    "MediaFormatVideo": {
+        "num": 2
+    },
+    "~Media": {
+        "num": 2
+    },
+    "getType": {
+        "num": 2
+    },
+    "Media": {
+        "num": 3
+    },
+    "AudioMediaTransmitParam": {
+        "num": 2
+    },
+    "getPortInfo": {
+        "num": 3
+    },
+    "getPortId": {
+        "num": 3
+    },
+    "getPortInfoFromId": {
+        "num": 3
+    },
+    "startTransmit": {
+        "num": 4
+    },
+    "startTransmit2": {
+        "num": 2
+    },
+    "stopTransmit": {
+        "num": 4
+    },
+    "adjustRxLevel": {
+        "num": 2
+    },
+    "adjustTxLevel": {
+        "num": 2
+    },
+    "getRxLevel": {
+        "num": 2
+    },
+    "getTxLevel": {
+        "num": 2
+    },
+    "typecastFromMedia": {
+        "num": 2
+    },
+    "AudioMedia": {
+        "num": 3
+    },
+    "~AudioMedia": {
+        "num": 2
+    },
+    "registerMediaPort": {
+        "num": 4
+    },
+    "registerMediaPort2": {
+        "num": 2
+    },
+    "unregisterMediaPort": {
+        "num": 3
+    },
+    "MediaFrame": {
+        "num": 1
+    },
+    "AudioMediaPort": {
+        "num": 3
+    },
+    "~AudioMediaPort": {
+        "num": 2
+    },
+    "createPort": {
+        "num": 2
+    },
+    "onFrameRequested": {
+        "num": 1
+    },
+    "onFrameReceived": {
+        "num": 1
+    },
+    "AudioMediaPlayerInfo": {
+        "num": 1
+    },
+    "AudioMediaPlayer": {
+        "num": 3
+    },
+    "createPlayer": {
+        "num": 2
+    },
+    "createPlaylist": {
+        "num": 2
+    },
+    "getPos": {
+        "num": 2
+    },
+    "setPos": {
+        "num": 4
+    },
+    "typecastFromAudioMedia": {
+        "num": 3
+    },
+    "~AudioMediaPlayer": {
+        "num": 2
+    },
+    "onEof2": {
+        "num": 1
+    },
+    "eof_cb": {
+        "num": 2
+    },
+    "AudioMediaRecorder": {
+        "num": 3
+    },
+    "createRecorder": {
+        "num": 2
+    },
+    "~AudioMediaRecorder": {
+        "num": 2
+    },
+    "ToneDesc": {
+        "num": 1
+    },
+    "~ToneDesc": {
+        "num": 1
+    },
+    "ToneDigit": {
+        "num": 1
+    },
+    "~ToneDigit": {
+        "num": 1
+    },
+    "ToneGenerator": {
+        "num": 3
+    },
+    "~ToneGenerator": {
+        "num": 2
+    },
+    "createToneGenerator": {
+        "num": 2
+    },
+    "isBusy": {
+        "num": 2
+    },
+    "stop": {
+        "num": 3
+    },
+    "rewind": {
+        "num": 2
+    },
+    "play": {
+        "num": 2
+    },
+    "playDigits": {
+        "num": 2
+    },
+    "getDigitMap": {
+        "num": 2
+    },
+    "setDigitMap": {
+        "num": 2
+    },
+    "~AudioDevInfo": {
+        "num": 2
+    },
+    "getCaptureDev": {
+        "num": 2
+    },
+    "getCaptureDevMedia": {
+        "num": 2
+    },
+    "getPlaybackDev": {
+        "num": 2
+    },
+    "getPlaybackDevMedia": {
+        "num": 2
+    },
+    "setCaptureDev": {
+        "num": 2
+    },
+    "setPlaybackDev": {
+        "num": 2
+    },
+    "enumDev2": {
+        "num": 3
+    },
+    "setNullDev": {
+        "num": 2
+    },
+    "setNoDev": {
+        "num": 2
+    },
+    "setSndDevMode": {
+        "num": 2
+    },
+    "setEcOptions": {
+        "num": 2
+    },
+    "getEcTail": {
+        "num": 2
+    },
+    "sndIsActive": {
+        "num": 2
+    },
+    "refreshDevs": {
+        "num": 3
+    },
+    "getDevCount": {
+        "num": 3
+    },
+    "getDevInfo": {
+        "num": 3
+    },
+    "lookupDev": {
+        "num": 3
+    },
+    "capName": {
+        "num": 4
+    },
+    "setExtFormat": {
+        "num": 2
+    },
+    "getExtFormat": {
+        "num": 2
+    },
+    "setInputLatency": {
+        "num": 2
+    },
+    "getInputLatency": {
+        "num": 2
+    },
+    "setOutputLatency": {
+        "num": 2
+    },
+    "getOutputLatency": {
+        "num": 2
+    },
+    "setInputVolume": {
+        "num": 2
+    },
+    "getInputVolume": {
+        "num": 2
+    },
+    "setOutputVolume": {
+        "num": 2
+    },
+    "getOutputVolume": {
+        "num": 2
+    },
+    "getInputSignal": {
+        "num": 2
+    },
+    "getOutputSignal": {
+        "num": 2
+    },
+    "setInputRoute": {
+        "num": 2
+    },
+    "getInputRoute": {
+        "num": 2
+    },
+    "setOutputRoute": {
+        "num": 2
+    },
+    "getOutputRoute": {
+        "num": 2
+    },
+    "setVad": {
+        "num": 2
+    },
+    "getVad": {
+        "num": 2
+    },
+    "setCng": {
+        "num": 2
+    },
+    "getCng": {
+        "num": 2
+    },
+    "setPlc": {
+        "num": 2
+    },
+    "getPlc": {
+        "num": 2
+    },
+    "AudDevManager": {
+        "num": 2
+    },
+    "~AudDevManager": {
+        "num": 2
+    },
+    "clearAudioDevList": {
+        "num": 2
+    },
+    "getActiveDev": {
+        "num": 2
+    },
+    "ExtraAudioDevice": {
+        "num": 3
+    },
+    "~ExtraAudioDevice": {
+        "num": 2
+    },
+    "open": {
+        "num": 2
+    },
+    "close": {
+        "num": 2
+    },
+    "isOpened": {
+        "num": 2
+    },
+    "VideoMedia": {
+        "num": 3
+    },
+    "~VideoMedia": {
+        "num": 2
+    },
+    "VideoWindow": {
+        "num": 2
+    },
+    "getVideoMedia": {
+        "num": 3
+    },
+    "Show": {
+        "num": 2
+    },
+    "setSize": {
+        "num": 2
+    },
+    "rotate": {
+        "num": 2
+    },
+    "setWindow": {
+        "num": 2
+    },
+    "setFullScreen": {
+        "num": 2
+    },
+    "setFullScreen2": {
+        "num": 2
+    },
+    "VideoPreviewOpParam": {
+        "num": 2
+    },
+    "VideoPreview": {
+        "num": 2
+    },
+    "hasNative": {
+        "num": 2
+    },
+    "start": {
+        "num": 2
+    },
+    "getVideoWindow": {
+        "num": 2
+    },
+    "updateDevId": {
+        "num": 2
+    },
+    "VideoDevInfo": {
+        "num": 1
+    },
+    "~VideoDevInfo": {
+        "num": 2
+    },
+    "initSubsys": {
+        "num": 2
+    },
+    "setFormat": {
+        "num": 2
+    },
+    "getFormat": {
+        "num": 2
+    },
+    "setInputScale": {
+        "num": 2
+    },
+    "getInputScale": {
+        "num": 2
+    },
+    "setOutputWindowFlags": {
+        "num": 2
+    },
+    "getOutputWindowFlags": {
+        "num": 2
+    },
+    "switchDev": {
+        "num": 2
+    },
+    "isCaptureActive": {
+        "num": 2
+    },
+    "setCaptureOrient": {
+        "num": 2
+    },
+    "clearVideoDevList": {
+        "num": 2
+    },
+    "VidDevManager": {
+        "num": 2
+    },
+    "~VidDevManager": {
+        "num": 2
+    },
+    "CodecParamInfo": {
+        "num": 1
+    },
+    "VidCodecParam": {
+        "num": 1
+    },
+    "MediaFmtChangedEvent": {
+        "num": 1
+    },
+    "~MediaFmtChangedEvent": {
+        "num": 1
+    },
+    "AudDevErrorEvent": {
+        "num": 1
+    },
+    "~AudDevErrorEvent": {
+        "num": 1
+    },
+    "MediaEventData": {
+        "num": 1
+    },
+    "MediaEvent": {
+        "num": 1
+    },
+    "~PersistentObject": {
+        "num": 1
+    },
+    "~PersistentDocument": {
+        "num": 1
+    },
+    "hasUnread": {
+        "num": 3
+    },
+    "unreadName": {
+        "num": 3
+    },
+    "readInt": {
+        "num": 3
+    },
+    "readNumber": {
+        "num": 3
+    },
+    "readBool": {
+        "num": 3
+    },
+    "readString": {
+        "num": 3
+    },
+    "readStringVector": {
+        "num": 3
+    },
+    "readContainer": {
+        "num": 3
+    },
+    "readArray": {
+        "num": 3
+    },
+    "writeNumber": {
+        "num": 3
+    },
+    "writeInt": {
+        "num": 3
+    },
+    "writeBool": {
+        "num": 3
+    },
+    "writeString": {
+        "num": 3
+    },
+    "writeStringVector": {
+        "num": 3
+    },
+    "writeNewContainer": {
+        "num": 3
+    },
+    "writeNewArray": {
+        "num": 3
+    },
+    "container_node_internal_data": {
+        "num": 1
+    },
+    "ContainerNode": {
+        "num": 1
+    },
+    "PresenceStatus": {
+        "num": 3
+    },
+    "BuddyConfig": {
+        "num": 1
+    },
+    "~BuddyConfig": {
+        "num": 1
+    },
+    "BuddyInfo": {
+        "num": 1
+    },
+    "Buddy": {
+        "num": 4
+    },
+    "~Buddy": {
+        "num": 2
+    },
+    "subscribePresence": {
+        "num": 2
+    },
+    "updatePresence": {
+        "num": 2
+    },
+    "onBuddyState": {
+        "num": 1
+    },
+    "onBuddyEvSubState": {
+        "num": 1
+    },
+    "getOriginalInstance": {
+        "num": 2
+    },
+    "AuthCredInfo": {
+        "num": 5
+    },
+    "~AuthCredInfo": {
+        "num": 1
+    },
+    "TlsConfig": {
+        "num": 3
+    },
+    "~TlsConfig": {
+        "num": 1
+    },
+    "TransportConfig": {
+        "num": 3
+    },
+    "~TransportConfig": {
+        "num": 1
+    },
+    "TransportInfo": {
+        "num": 2
+    },
+    "SipRxData": {
+        "num": 3
+    },
+    "SipTxData": {
+        "num": 3
+    },
+    "SipTransaction": {
+        "num": 2
+    },
+    "TsxStateEventSrc": {
+        "num": 1
+    },
+    "TsxStateEvent": {
+        "num": 2
+    },
+    "SipEvent": {
+        "num": 2
+    },
+    "SipMediaType": {
+        "num": 1
+    },
+    "~SipMediaType": {
+        "num": 1
+    },
+    "SipHeader": {
+        "num": 3
+    },
+    "SipMultipartPart": {
+        "num": 3
+    },
+    "SendInstantMessageParam": {
+        "num": 2
+    },
+    "SendTypingIndicationParam": {
+        "num": 2
+    },
+    "readIntVector": {
+        "num": 1
+    },
+    "writeIntVector": {
+        "num": 1
+    },
+    "readQosParams": {
+        "num": 1
+    },
+    "writeQosParams": {
+        "num": 1
+    },
+    "readSipHeaders": {
+        "num": 1
+    },
+    "writeSipHeaders": {
+        "num": 1
+    },
+    "str2Pj": {
+        "num": 1
+    },
+    "pj2Str": {
+        "num": 1
+    },
+    "setPortId": {
+        "num": 2
+    },
+    "AudioMediaHelper": {
+        "num": 1
+    },
+    "~AudioMediaHelper": {
+        "num": 1
+    },
+    "VideoMediaHelper": {
+        "num": 1
+    },
+    "~VideoMediaHelper": {
+        "num": 1
+    },
+    "uri_test": {
+        "num": 1
+    },
+    "msg_test": {
+        "num": 1
+    },
+    "msg_err_test": {
+        "num": 1
+    },
+    "multipart_test": {
+        "num": 1
+    },
+    "txdata_test": {
+        "num": 1
+    },
+    "tsx_bench": {
+        "num": 1
+    },
+    "tsx_destroy_test": {
+        "num": 1
+    },
+    "transport_udp_test": {
+        "num": 1
+    },
+    "transport_loop_test": {
+        "num": 1
+    },
+    "transport_tcp_test": {
+        "num": 1
+    },
+    "resolve_test": {
+        "num": 1
+    },
+    "regc_test": {
+        "num": 1
+    },
+    "tsx_basic_test": {
+        "num": 1
+    },
+    "tsx_uac_test": {
+        "num": 1
+    },
+    "tsx_uas_test": {
+        "num": 1
+    },
+    "generic_transport_test": {
+        "num": 1
+    },
+    "transport_send_recv_test": {
+        "num": 1
+    },
+    "transport_rt_test": {
+        "num": 1
+    },
+    "transport_load_test": {
+        "num": 1
+    },
+    "inv_offer_answer_test": {
+        "num": 1
+    },
+    "test_main": {
+        "num": 1
+    },
+    "list_tests": {
+        "num": 1
+    },
+    "app_perror": {
+        "num": 1
+    },
+    "init_msg_logger": {
+        "num": 1
+    },
+    "msg_logger_set_enabled": {
+        "num": 1
+    },
+    "flush_events": {
+        "num": 1
+    },
+    "report_ival": {
+        "num": 1
+    },
+    "report_sval": {
+        "num": 1
+    },
+    "dup_bin": {
+        "num": 1
+    },
+    "pj_strcmp": {
+        "num": 1
+    },
+    "digestNtoStr": {
+        "num": 1
+    },
+    "pj_val_to_hex_digit": {
+        "num": 1
+    },
+    "pj_assert": {
+        "num": 1
+    },
+    "pj_bzero": {
+        "num": 1
+    },
+    "has_auth_qop": {
+        "num": 1
+    },
+    "pj_tolower": {
+        "num": 1
+    },
+    "respond_digest": {
+        "num": 1
+    },
+    "pj_stricmp": {
+        "num": 1
+    },
+    "update_digest_session": {
+        "num": 1
+    },
+    "pj_strchr": {
+        "num": 1
+    },
+    "pj_strlen": {
+        "num": 1
+    },
+    "find_cached_auth": {
+        "num": 1
+    },
+    "auth_find_cred": {
+        "num": 1
+    },
+    "auth_respond": {
+        "num": 1
+    },
+    "pjsip_uri_print": {
+        "num": 1
+    },
+    "get_header_for_realm": {
+        "num": 1
+    },
+    "recreate_cached_auth_pool": {
+        "num": 1
+    },
+    "pj_strassign": {
+        "num": 1
+    },
+    "process_auth": {
+        "num": 1
+    },
+    "pjsip_authorization_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_authorization_hdr_shallow_clone": {
+        "num": 1
+    },
+    "pjsip_authorization_hdr_print": {
+        "num": 1
+    },
+    "print_digest_credential": {
+        "num": 1
+    },
+    "print_pgp_credential": {
+        "num": 1
+    },
+    "print_oauth_credential": {
+        "num": 1
+    },
+    "pj_stricmp2": {
+        "num": 1
+    },
+    "pjsip_www_authenticate_hdr_print": {
+        "num": 1
+    },
+    "pjsip_www_authenticate_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_www_authenticate_hdr_shallow_clone": {
+        "num": 1
+    },
+    "print_digest_challenge": {
+        "num": 1
+    },
+    "print_pgp_challenge": {
+        "num": 1
+    },
+    "parse_hdr_authorization": {
+        "num": 1
+    },
+    "parse_hdr_proxy_authorization": {
+        "num": 1
+    },
+    "parse_hdr_www_authenticate": {
+        "num": 1
+    },
+    "parse_hdr_proxy_authenticate": {
+        "num": 1
+    },
+    "parse_digest_credential": {
+        "num": 1
+    },
+    "parse_pgp_credential": {
+        "num": 1
+    },
+    "parse_digest_challenge": {
+        "num": 1
+    },
+    "parse_pgp_challenge": {
+        "num": 1
+    },
+    "pj_throw_exception_": {
+        "num": 1
+    },
+    "int_parse_hdr_authorization": {
+        "num": 1
+    },
+    "int_parse_hdr_authenticate": {
+        "num": 1
+    },
+    "PJ_ASSERT_RETURN": {
+        "num": 1
+    },
+    "pjsip_auth_verify": {
+        "num": 1
+    },
+    "pj_create_random_string": {
+        "num": 1
+    },
+    "pjsip_dump_config": {
+        "num": 2
+    },
+    "pjsip_cfg": {
+        "num": 1
+    },
+    "dlg_on_destroy": {
+        "num": 1
+    },
+    "create_dialog": {
+        "num": 1
+    },
+    "destroy_dialog": {
+        "num": 1
+    },
+    "pjsip_uri_get_scheme": {
+        "num": 1
+    },
+    "pj_rand": {
+        "num": 1
+    },
+    "create_uas_dialog": {
+        "num": 1
+    },
+    "pj_ansi_strxcpy": {
+        "num": 1
+    },
+    "strlen": {
+        "num": 20
+    },
+    "pjsip_uri_clone": {
+        "num": 1
+    },
+    "unregister_and_destroy_dialog": {
+        "num": 1
+    },
+    "dlg_create_request_throw": {
+        "num": 1
+    },
+    "send_ack_callback": {
+        "num": 1
+    },
+    "PJ_PERROR": {
+        "num": 1
+    },
+    "dlg_beautify_response": {
+        "num": 1
+    },
+    "pj_str": {
+        "num": 1
+    },
+    "pj_strerror": {
+        "num": 1
+    },
+    "pjsip_uri_cmp": {
+        "num": 1
+    },
+    "dlg_update_routeset": {
+        "num": 1
+    },
+    "endpt_on_rx_msg": {
+        "num": 1
+    },
+    "endpt_on_tx_msg": {
+        "num": 1
+    },
+    "unload_module": {
+        "num": 1
+    },
+    "init_sip_parser": {
+        "num": 2
+    },
+    "deinit_sip_parser": {
+        "num": 2
+    },
+    "pjsip_tel_uri_subsys_init": {
+        "num": 2
+    },
+    "pool_callback": {
+        "num": 1
+    },
+    "cmp_mod_name": {
+        "num": 1
+    },
+    "pj_cstr": {
+        "num": 1
+    },
+    "pj_get_netos_error": {
+        "num": 1
+    },
+    "pj_strcpy2": {
+        "num": 1
+    },
+    "__builtin_va_start": {
+        "num": 1
+    },
+    "__builtin_va_end": {
+        "num": 1
+    },
+    "pj_strncpy_with_null": {
+        "num": 1
+    },
+    "print_media_type": {
+        "num": 1
+    },
+    "init_status_phrase": {
+        "num": 1
+    },
+    "pj_strset2": {
+        "num": 1
+    },
+    "pj_memcmp": {
+        "num": 1
+    },
+    "pjsip_uri_get_uri": {
+        "num": 1
+    },
+    "pj_utoa": {
+        "num": 1
+    },
+    "pjsip_param_cmp": {
+        "num": 2
+    },
+    "pjsip_generic_string_hdr_print": {
+        "num": 1
+    },
+    "pjsip_generic_string_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_generic_string_hdr_shallow_clone": {
+        "num": 1
+    },
+    "pjsip_generic_int_hdr_print": {
+        "num": 1
+    },
+    "pjsip_generic_int_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_generic_int_hdr_shallow_clone": {
+        "num": 1
+    },
+    "pjsip_generic_array_hdr_print": {
+        "num": 1
+    },
+    "pjsip_generic_array_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_generic_array_hdr_shallow_clone": {
+        "num": 1
+    },
+    "pjsip_clen_hdr_print": {
+        "num": 1
+    },
+    "pjsip_clen_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_cseq_hdr_print": {
+        "num": 1
+    },
+    "pjsip_cseq_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_cseq_hdr_shallow_clone": {
+        "num": 1
+    },
+    "pjsip_contact_hdr_print": {
+        "num": 1
+    },
+    "pjsip_contact_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_contact_hdr_shallow_clone": {
+        "num": 1
+    },
+    "pjsip_ctype_hdr_print": {
+        "num": 1
+    },
+    "pjsip_ctype_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_fromto_hdr_print": {
+        "num": 1
+    },
+    "pjsip_fromto_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_fromto_hdr_shallow_clone": {
+        "num": 1
+    },
+    "pj_strncpy2_escape": {
+        "num": 1
+    },
+    "pjsip_routing_hdr_print": {
+        "num": 1
+    },
+    "pjsip_routing_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_routing_hdr_shallow_clone": {
+        "num": 1
+    },
+    "pjsip_retry_after_hdr_print": {
+        "num": 1
+    },
+    "pjsip_retry_after_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_retry_after_hdr_shallow_clone": {
+        "num": 1
+    },
+    "pjsip_via_hdr_print": {
+        "num": 1
+    },
+    "pjsip_via_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_via_hdr_shallow_clone": {
+        "num": 1
+    },
+    "pj_toupper": {
+        "num": 1
+    },
+    "pj_memchr": {
+        "num": 1
+    },
+    "multipart_print_body": {
+        "num": 1
+    },
+    "multipart_clone_data": {
+        "num": 1
+    },
+    "pj_strtrim": {
+        "num": 1
+    },
+    "cid_uri_to_hdr_value": {
+        "num": 1
+    },
+    "pj_strcpy_unescape": {
+        "num": 1
+    },
+    "pj_strncmp2": {
+        "num": 1
+    },
+    "pj_strcmp2": {
+        "num": 1
+    },
+    "parse_multipart_part": {
+        "num": 1
+    },
+    "pj_isspace": {
+        "num": 1
+    },
+    "pj_strstr": {
+        "num": 1
+    },
+    "pj_strset": {
+        "num": 1
+    },
+    "int_parse_msg": {
+        "num": 1
+    },
+    "int_parse_param": {
+        "num": 1
+    },
+    "int_parse_uri_param": {
+        "num": 1
+    },
+    "int_parse_hparam": {
+        "num": 1
+    },
+    "int_parse_req_line": {
+        "num": 1
+    },
+    "int_is_next_user": {
+        "num": 1
+    },
+    "int_parse_status_line": {
+        "num": 1
+    },
+    "int_parse_user_pass": {
+        "num": 1
+    },
+    "int_parse_uri_host_port": {
+        "num": 1
+    },
+    "int_parse_uri_or_name_addr": {
+        "num": 1
+    },
+    "int_parse_sip_url": {
+        "num": 1
+    },
+    "int_parse_name_addr": {
+        "num": 1
+    },
+    "int_parse_other_uri": {
+        "num": 1
+    },
+    "parse_hdr_end": {
+        "num": 1
+    },
+    "parse_hdr_accept": {
+        "num": 1
+    },
+    "parse_hdr_allow": {
+        "num": 1
+    },
+    "parse_hdr_call_id": {
+        "num": 1
+    },
+    "parse_hdr_contact": {
+        "num": 1
+    },
+    "parse_hdr_content_len": {
+        "num": 1
+    },
+    "parse_hdr_content_type": {
+        "num": 1
+    },
+    "parse_hdr_cseq": {
+        "num": 1
+    },
+    "parse_hdr_expires": {
+        "num": 1
+    },
+    "parse_hdr_from": {
+        "num": 1
+    },
+    "parse_hdr_max_forwards": {
+        "num": 1
+    },
+    "parse_hdr_min_expires": {
+        "num": 1
+    },
+    "parse_hdr_rr": {
+        "num": 1
+    },
+    "parse_hdr_route": {
+        "num": 1
+    },
+    "parse_hdr_require": {
+        "num": 1
+    },
+    "parse_hdr_retry_after": {
+        "num": 1
+    },
+    "parse_hdr_supported": {
+        "num": 1
+    },
+    "parse_hdr_to": {
+        "num": 1
+    },
+    "parse_hdr_unsupported": {
+        "num": 1
+    },
+    "parse_hdr_via": {
+        "num": 1
+    },
+    "parse_hdr_generic_string": {
+        "num": 1
+    },
+    "pj_strtoul_mindigit": {
+        "num": 1
+    },
+    "parser_get_and_unescape": {
+        "num": 1
+    },
+    "pj_str_unescape": {
+        "num": 1
+    },
+    "on_syntax_error": {
+        "num": 1
+    },
+    "on_str_parse_error": {
+        "num": 1
+    },
+    "strtoi_validate": {
+        "num": 1
+    },
+    "pj_strtol2": {
+        "num": 1
+    },
+    "init_parser": {
+        "num": 1
+    },
+    "compare_handler": {
+        "num": 1
+    },
+    "int_register_parser": {
+        "num": 1
+    },
+    "pj_memmove": {
+        "num": 1
+    },
+    "find_handler_imp": {
+        "num": 1
+    },
+    "find_handler": {
+        "num": 1
+    },
+    "find_uri_handler": {
+        "num": 1
+    },
+    "pj_stricmp_alnum": {
+        "num": 1
+    },
+    "strnicmp_alnum": {
+        "num": 1
+    },
+    "parse_sip_version": {
+        "num": 1
+    },
+    "is_next_sip_version": {
+        "num": 1
+    },
+    "parse_param_imp": {
+        "num": 1
+    },
+    "int_parse_host": {
+        "num": 1
+    },
+    "int_parse_uri": {
+        "num": 1
+    },
+    "parse_generic_array_hdr": {
+        "num": 1
+    },
+    "parse_generic_string_hdr": {
+        "num": 1
+    },
+    "pj_strcpy": {
+        "num": 1
+    },
+    "pj_strcat2": {
+        "num": 1
+    },
+    "pj_strcat": {
+        "num": 1
+    },
+    "parse_generic_int_hdr": {
+        "num": 1
+    },
+    "pj_strtoul": {
+        "num": 1
+    },
+    "int_parse_contact_param": {
+        "num": 1
+    },
+    "parse_hdr_fromto": {
+        "num": 1
+    },
+    "int_parse_via_param": {
+        "num": 1
+    },
+    "parse_hdr_rr_route": {
+        "num": 1
+    },
+    "srv_resolver_cb": {
+        "num": 1
+    },
+    "dns_a_callback": {
+        "num": 1
+    },
+    "dns_aaaa_callback": {
+        "num": 1
+    },
+    "get_ip_addr_ver": {
+        "num": 2
+    },
+    "tel_uri_get_scheme": {
+        "num": 1
+    },
+    "tel_uri_get_uri": {
+        "num": 1
+    },
+    "tel_uri_print": {
+        "num": 1
+    },
+    "tel_uri_cmp": {
+        "num": 1
+    },
+    "tel_uri_clone": {
+        "num": 1
+    },
+    "tel_uri_parse": {
+        "num": 1
+    },
+    "pjsip_param_cfind": {
+        "num": 1
+    },
+    "mod_tsx_layer_load": {
+        "num": 1
+    },
+    "mod_tsx_layer_start": {
+        "num": 1
+    },
+    "mod_tsx_layer_stop": {
+        "num": 1
+    },
+    "mod_tsx_layer_unload": {
+        "num": 1
+    },
+    "mod_tsx_layer_on_rx_request": {
+        "num": 1
+    },
+    "mod_tsx_layer_on_rx_response": {
+        "num": 1
+    },
+    "tsx_on_state_null": {
+        "num": 1
+    },
+    "tsx_on_state_calling": {
+        "num": 1
+    },
+    "tsx_on_state_trying": {
+        "num": 1
+    },
+    "tsx_on_state_proceeding_uas": {
+        "num": 1
+    },
+    "tsx_on_state_proceeding_uac": {
+        "num": 1
+    },
+    "tsx_on_state_completed_uas": {
+        "num": 1
+    },
+    "tsx_on_state_completed_uac": {
+        "num": 1
+    },
+    "tsx_on_state_confirmed": {
+        "num": 1
+    },
+    "tsx_on_state_terminated": {
+        "num": 1
+    },
+    "tsx_on_state_destroyed": {
+        "num": 1
+    },
+    "tsx_timer_callback": {
+        "num": 1
+    },
+    "tsx_tp_state_callback": {
+        "num": 1
+    },
+    "tsx_set_state": {
+        "num": 1
+    },
+    "tsx_set_status_code": {
+        "num": 1
+    },
+    "tsx_create": {
+        "num": 1
+    },
+    "tsx_on_destroy": {
+        "num": 1
+    },
+    "tsx_shutdown": {
+        "num": 1
+    },
+    "tsx_resched_retransmission": {
+        "num": 1
+    },
+    "tsx_retransmit": {
+        "num": 1
+    },
+    "tsx_send_msg": {
+        "num": 1
+    },
+    "tsx_update_transport": {
+        "num": 1
+    },
+    "create_tsx_key_2543": {
+        "num": 1
+    },
+    "create_tsx_key_3261": {
+        "num": 1
+    },
+    "pj_strnicmp": {
+        "num": 1
+    },
+    "mod_tsx_layer_register_tsx": {
+        "num": 1
+    },
+    "mod_tsx_layer_unregister_tsx": {
+        "num": 1
+    },
+    "find_tsx": {
+        "num": 1
+    },
+    "tsx_layer_destroy": {
+        "num": 1
+    },
+    "lock_timer": {
+        "num": 1
+    },
+    "unlock_timer": {
+        "num": 1
+    },
+    "tsx_schedule_timer": {
+        "num": 1
+    },
+    "tsx_cancel_timer": {
+        "num": 1
+    },
+    "send_msg_callback": {
+        "num": 2
+    },
+    "transport_callback": {
+        "num": 1
+    },
+    "mod_on_tx_msg": {
+        "num": 1
+    },
+    "tp_state_callback": {
+        "num": 1
+    },
+    "get_tpname": {
+        "num": 1
+    },
+    "tx_data_destroy": {
+        "num": 1
+    },
+    "get_msg_info": {
+        "num": 1
+    },
+    "transport_send_callback": {
+        "num": 1
+    },
+    "send_raw_callback": {
+        "num": 1
+    },
+    "transport_idle_callback": {
+        "num": 1
+    },
+    "is_transport_valid": {
+        "num": 1
+    },
+    "destroy_transport": {
+        "num": 1
+    },
+    "pjsip_tpmgr_is_tpfactory_valid": {
+        "num": 1
+    },
+    "get_net_interface": {
+        "num": 1
+    },
+    "pj_get_timestamp": {
+        "num": 1
+    },
+    "pj_strdup2": {
+        "num": 1
+    },
+    "init_tp_data": {
+        "num": 1
+    },
+    "create_incoming_packet": {
+        "num": 1
+    },
+    "add_notification": {
+        "num": 1
+    },
+    "loop_send_msg": {
+        "num": 1
+    },
+    "loop_destroy": {
+        "num": 1
+    },
+    "loop_transport_worker_thread": {
+        "num": 1
+    },
+    "on_accept_complete": {
+        "num": 1
+    },
+    "lis_destroy": {
+        "num": 1
+    },
+    "lis_on_destroy": {
+        "num": 1
+    },
+    "lis_create_transport": {
+        "num": 1
+    },
+    "tcp_create": {
+        "num": 1
+    },
+    "tcp_perror": {
+        "num": 1
+    },
+    "sockaddr_to_host_port": {
+        "num": 1
+    },
+    "tcp_init_shutdown": {
+        "num": 1
+    },
+    "update_bound_addr": {
+        "num": 1
+    },
+    "update_factory_addr": {
+        "num": 1
+    },
+    "update_transport_info": {
+        "num": 1
+    },
+    "PJ_CHECK_TRUNC_STR": {
+        "num": 1
+    },
+    "pj_ansi_strxcat": {
+        "num": 1
+    },
+    "lis_close": {
+        "num": 1
+    },
+    "tcp_send_msg": {
+        "num": 1
+    },
+    "tcp_shutdown": {
+        "num": 1
+    },
+    "tcp_destroy_transport": {
+        "num": 1
+    },
+    "tcp_destroy": {
+        "num": 1
+    },
+    "on_data_read": {
+        "num": 1
+    },
+    "on_data_sent": {
+        "num": 1
+    },
+    "on_connect_complete": {
+        "num": 1
+    },
+    "tcp_keep_alive_timer": {
+        "num": 1
+    },
+    "tcp_on_destroy": {
+        "num": 1
+    },
+    "tcp_flush_pending_tx": {
+        "num": 1
+    },
+    "tcp_start_read": {
+        "num": 1
+    },
+    "pj_gettickcount": {
+        "num": 1
+    },
+    "init_rdata": {
+        "num": 1
+    },
+    "udp_on_read_complete": {
+        "num": 1
+    },
+    "udp_on_write_complete": {
+        "num": 1
+    },
+    "udp_send_msg": {
+        "num": 1
+    },
+    "udp_on_destroy": {
+        "num": 1
+    },
+    "udp_destroy": {
+        "num": 1
+    },
+    "udp_shutdown": {
+        "num": 1
+    },
+    "create_socket": {
+        "num": 1
+    },
+    "get_published_name": {
+        "num": 1
+    },
+    "udp_set_pub_name": {
+        "num": 1
+    },
+    "udp_set_socket": {
+        "num": 1
+    },
+    "register_to_ioqueue": {
+        "num": 1
+    },
+    "start_async_read": {
+        "num": 1
+    },
+    "transport_attach": {
+        "num": 1
+    },
+    "mod_ua_load": {
+        "num": 1
+    },
+    "mod_ua_unload": {
+        "num": 1
+    },
+    "mod_ua_on_rx_request": {
+        "num": 1
+    },
+    "mod_ua_on_rx_response": {
+        "num": 1
+    },
+    "mod_ua_on_tsx_state": {
+        "num": 1
+    },
+    "alloc_dlgset_node": {
+        "num": 1
+    },
+    "find_dlg_set_for_msg": {
+        "num": 1
+    },
+    "print_dialog": {
+        "num": 1
+    },
+    "pjsip_url_get_scheme": {
+        "num": 1
+    },
+    "pjsips_url_get_scheme": {
+        "num": 1
+    },
+    "pjsip_name_addr_get_scheme": {
+        "num": 1
+    },
+    "pjsip_get_uri": {
+        "num": 1
+    },
+    "pjsip_name_addr_get_uri": {
+        "num": 1
+    },
+    "pjsip_name_addr_clone": {
+        "num": 1
+    },
+    "pjsip_name_addr_print": {
+        "num": 1
+    },
+    "pjsip_name_addr_compare": {
+        "num": 1
+    },
+    "pjsip_url_print": {
+        "num": 1
+    },
+    "pjsip_url_compare": {
+        "num": 1
+    },
+    "pjsip_url_clone": {
+        "num": 1
+    },
+    "other_uri_get_scheme": {
+        "num": 1
+    },
+    "other_uri_get_uri": {
+        "num": 1
+    },
+    "other_uri_print": {
+        "num": 1
+    },
+    "other_uri_cmp": {
+        "num": 1
+    },
+    "other_uri_clone": {
+        "num": 1
+    },
+    "init_request_throw": {
+        "num": 1
+    },
+    "stateless_send_transport_cb": {
+        "num": 1
+    },
+    "resort_address": {
+        "num": 1
+    },
+    "stateless_send_resolver_callback": {
+        "num": 1
+    },
+    "send_raw_resolver_callback": {
+        "num": 1
+    },
+    "send_response_transport_cb": {
+        "num": 1
+    },
+    "send_response_resolver_cb": {
+        "num": 1
+    },
+    "digest2str": {
+        "num": 1
+    },
+    "mod_util_on_tsx_state": {
+        "num": 1
+    },
+    "xml_init_node": {
+        "num": 2
+    },
+    "xml_create_attr": {
+        "num": 3
+    },
+    "dlg_event_on_evsub_state": {
+        "num": 1
+    },
+    "dlg_event_on_evsub_tsx_state": {
+        "num": 1
+    },
+    "dlg_event_on_evsub_rx_notify": {
+        "num": 1
+    },
+    "dlg_event_on_evsub_client_refresh": {
+        "num": 1
+    },
+    "pjsip_dlg_event_instance": {
+        "num": 1
+    },
+    "dlg_event_process_rx_notify": {
+        "num": 1
+    },
+    "mod_evsub_on_tsx_state": {
+        "num": 1
+    },
+    "mod_evsub_unload": {
+        "num": 1
+    },
+    "find_pkg": {
+        "num": 1
+    },
+    "update_expires": {
+        "num": 1
+    },
+    "set_timer": {
+        "num": 1
+    },
+    "evsub_on_destroy": {
+        "num": 1
+    },
+    "evsub_destroy": {
+        "num": 1
+    },
+    "set_state": {
+        "num": 1
+    },
+    "evsub_create": {
+        "num": 1
+    },
+    "sub_state_create": {
+        "num": 1
+    },
+    "terminate_timer_cb": {
+        "num": 1
+    },
+    "on_new_transaction": {
+        "num": 1
+    },
+    "create_response": {
+        "num": 1
+    },
+    "get_hdr_state": {
+        "num": 1
+    },
+    "on_tsx_state_uac": {
+        "num": 1
+    },
+    "on_tsx_state_uas": {
+        "num": 1
+    },
+    "pjsip_event_hdr_print": {
+        "num": 1
+    },
+    "pjsip_event_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_event_hdr_shallow_clone": {
+        "num": 1
+    },
+    "pjsip_sub_state_hdr_print": {
+        "num": 1
+    },
+    "pjsip_sub_state_hdr_clone": {
+        "num": 1
+    },
+    "pjsip_sub_state_hdr_shallow_clone": {
+        "num": 1
+    },
+    "parse_hdr_event": {
+        "num": 1
+    },
+    "parse_hdr_sub_state": {
+        "num": 1
+    },
+    "xml_print_body": {
+        "num": 1
+    },
+    "xml_clone_data": {
+        "num": 2
+    },
+    "mwi_on_evsub_state": {
+        "num": 1
+    },
+    "mwi_on_evsub_tsx_state": {
+        "num": 1
+    },
+    "mwi_on_evsub_rx_refresh": {
+        "num": 1
+    },
+    "mwi_on_evsub_rx_notify": {
+        "num": 1
+    },
+    "mwi_on_evsub_client_refresh": {
+        "num": 1
+    },
+    "mwi_on_evsub_server_timeout": {
+        "num": 1
+    },
+    "mwi_create_msg_body": {
+        "num": 1
+    },
+    "find_tuple_by_id": {
+        "num": 1
+    },
+    "pres_on_evsub_state": {
+        "num": 1
+    },
+    "pres_on_evsub_tsx_state": {
+        "num": 1
+    },
+    "pres_on_evsub_rx_refresh": {
+        "num": 1
+    },
+    "pres_on_evsub_rx_notify": {
+        "num": 1
+    },
+    "pres_on_evsub_client_refresh": {
+        "num": 1
+    },
+    "pres_on_evsub_server_timeout": {
+        "num": 1
+    },
+    "pres_create_msg_body": {
+        "num": 1
+    },
+    "pres_process_rx_notify": {
+        "num": 1
+    },
+    "pres_print_body": {
+        "num": 1
+    },
+    "set_expires": {
+        "num": 2
+    },
+    "create_request": {
+        "num": 2
+    },
+    "call_callback": {
+        "num": 2
+    },
+    "pubc_refresh_timer_cb": {
+        "num": 1
+    },
+    "tsx_callback": {
+        "num": 1
+    },
+    "update_namespaces": {
+        "num": 1
+    },
+    "substring_match": {
+        "num": 1
+    },
+    "pj_strnicmp2": {
+        "num": 1
+    },
+    "find_node": {
+        "num": 1
+    },
+    "get_tuple_note": {
+        "num": 1
+    },
+    "xml_create_node": {
+        "num": 1
+    },
+    "mod_100rel_load": {
+        "num": 1
+    },
+    "on_retransmit": {
+        "num": 1
+    },
+    "find_req_hdr": {
+        "num": 1
+    },
+    "clear_all_responses": {
+        "num": 1
+    },
+    "parse_rack": {
+        "num": 1
+    },
+    "pj_isdigit": {
+        "num": 1
+    },
+    "has_sdp": {
+        "num": 1
+    },
+    "pjsip_inv_process_hparam": {
+        "num": 1
+    },
+    "mod_inv_load": {
+        "num": 1
+    },
+    "mod_inv_unload": {
+        "num": 1
+    },
+    "mod_inv_on_rx_request": {
+        "num": 1
+    },
+    "mod_inv_on_rx_response": {
+        "num": 1
+    },
+    "mod_inv_on_tsx_state": {
+        "num": 1
+    },
+    "inv_on_state_null": {
+        "num": 1
+    },
+    "inv_on_state_calling": {
+        "num": 1
+    },
+    "inv_on_state_incoming": {
+        "num": 1
+    },
+    "inv_on_state_early": {
+        "num": 1
+    },
+    "inv_on_state_connecting": {
+        "num": 1
+    },
+    "inv_on_state_confirmed": {
+        "num": 1
+    },
+    "inv_on_state_disconnected": {
+        "num": 1
+    },
+    "inv_check_sdp_in_incoming_msg": {
+        "num": 1
+    },
+    "inv_negotiate_sdp": {
+        "num": 1
+    },
+    "create_sdp_body": {
+        "num": 1
+    },
+    "process_answer": {
+        "num": 1
+    },
+    "handle_timer_response": {
+        "num": 1
+    },
+    "inv_check_secure_dlg": {
+        "num": 1
+    },
+    "print_sdp": {
+        "num": 1
+    },
+    "add_reason_warning_hdr": {
+        "num": 1
+    },
+    "inv_session_destroy": {
+        "num": 1
+    },
+    "inv_set_state": {
+        "num": 1
+    },
+    "inv_set_cause": {
+        "num": 1
+    },
+    "inv_has_pending_answer": {
+        "num": 1
+    },
+    "inv_perform_pending_bye": {
+        "num": 1
+    },
+    "inv_send_ack": {
+        "num": 1
+    },
+    "tx_data_has_sdp": {
+        "num": 1
+    },
+    "clone_sdp": {
+        "num": 1
+    },
+    "create_sdp_part": {
+        "num": 1
+    },
+    "remove_val_from_array_hdr": {
+        "num": 1
+    },
+    "cleanup_allow_sup_hdr": {
+        "num": 1
+    },
+    "swap_pool": {
+        "num": 1
+    },
+    "inv_uac_recurse": {
+        "num": 1
+    },
+    "pj_strdup2_with_null": {
+        "num": 1
+    },
+    "inv_respond_incoming_cancel": {
+        "num": 1
+    },
+    "inv_respond_incoming_bye": {
+        "num": 1
+    },
+    "inv_handle_bye_response": {
+        "num": 1
+    },
+    "inv_respond_incoming_update": {
+        "num": 1
+    },
+    "inv_handle_update_response": {
+        "num": 1
+    },
+    "inv_handle_incoming_reliable_response": {
+        "num": 1
+    },
+    "inv_respond_incoming_prack": {
+        "num": 1
+    },
+    "handle_uac_tsx_response": {
+        "num": 1
+    },
+    "handle_uac_call_rejection": {
+        "num": 1
+    },
+    "set_contact": {
+        "num": 1
+    },
+    "cbparam_init": {
+        "num": 1
+    },
+    "regc_refresh_timer_cb": {
+        "num": 1
+    },
+    "schedule_registration": {
+        "num": 1
+    },
+    "calculate_response_expiration": {
+        "num": 1
+    },
+    "regc_tsx_callback": {
+        "num": 1
+    },
+    "replaces_hdr_print": {
+        "num": 1
+    },
+    "replaces_hdr_clone": {
+        "num": 1
+    },
+    "replaces_hdr_shallow_clone": {
+        "num": 1
+    },
+    "parse_hdr_replaces": {
+        "num": 1
+    },
+    "pjsip_replaces_deinit_module": {
+        "num": 1
+    },
+    "stop_timer": {
+        "num": 1
+    },
+    "start_timer": {
+        "num": 1
+    },
+    "se_hdr_print": {
+        "num": 1
+    },
+    "se_hdr_clone": {
+        "num": 1
+    },
+    "se_hdr_shallow_clone": {
+        "num": 1
+    },
+    "min_se_hdr_print": {
+        "num": 1
+    },
+    "min_se_hdr_clone": {
+        "num": 1
+    },
+    "min_se_hdr_shallow_clone": {
+        "num": 1
+    },
+    "parse_hdr_se": {
+        "num": 1
+    },
+    "parse_hdr_min_se": {
+        "num": 1
+    },
+    "add_timer_headers": {
+        "num": 1
+    },
+    "timer_cb": {
+        "num": 2
+    },
+    "pjsip_timer_deinit_module": {
+        "num": 1
+    },
+    "xfer_on_evsub_state": {
+        "num": 1
+    },
+    "xfer_on_evsub_tsx_state": {
+        "num": 1
+    },
+    "xfer_on_evsub_rx_refresh": {
+        "num": 1
+    },
+    "xfer_on_evsub_rx_notify": {
+        "num": 1
+    },
+    "xfer_on_evsub_client_refresh": {
+        "num": 1
+    },
+    "xfer_on_evsub_server_timeout": {
+        "num": 1
+    },
+    "schedule_reregistration": {
+        "num": 1
+    },
+    "keep_alive_timer_cb": {
+        "num": 1
+    },
+    "calc_proxy_crc": {
+        "num": 1
+    },
+    "init_outbound_setting": {
+        "num": 1
+    },
+    "destroy_regc": {
+        "num": 1
+    },
+    "initialize_acc": {
+        "num": 1
+    },
+    "PJSUA_LOCK": {
+        "num": 1
+    },
+    "PJSUA_UNLOCK": {
+        "num": 1
+    },
+    "pjsip_hdr_cmp": {
+        "num": 1
+    },
+    "update_hdr_list": {
+        "num": 1
+    },
+    "update_regc_contact": {
+        "num": 1
+    },
+    "is_private_ip": {
+        "num": 1
+    },
+    "acc_check_nat_addr": {
+        "num": 1
+    },
+    "update_service_route": {
+        "num": 1
+    },
+    "update_keep_alive": {
+        "num": 1
+    },
+    "update_rfc5626_status": {
+        "num": 1
+    },
+    "regc_tsx_cb": {
+        "num": 1
+    },
+    "handle_call_on_ip_change_cb": {
+        "num": 1
+    },
+    "regc_cb": {
+        "num": 1
+    },
+    "pjsua_regc_init": {
+        "num": 1
+    },
+    "sip_acc_get_pref_ip_ver": {
+        "num": 1
+    },
+    "auto_rereg_timer_cb": {
+        "num": 1
+    },
+    "pjsua_acc_on_tp_state_changed": {
+        "num": 2
+    },
+    "pjsua_call_on_state_changed": {
+        "num": 1
+    },
+    "pjsua_call_on_forked": {
+        "num": 1
+    },
+    "pjsua_call_on_media_update": {
+        "num": 1
+    },
+    "pjsua_call_on_rx_offer": {
+        "num": 1
+    },
+    "pjsua_call_on_rx_reinvite": {
+        "num": 1
+    },
+    "pjsua_call_on_create_offer": {
+        "num": 1
+    },
+    "pjsua_call_on_tsx_state_changed": {
+        "num": 1
+    },
+    "pjsua_call_on_redirected": {
+        "num": 1
+    },
+    "create_sdp_of_call_hold": {
+        "num": 1
+    },
+    "xfer_client_on_evsub_state": {
+        "num": 1
+    },
+    "xfer_server_on_evsub_state": {
+        "num": 1
+    },
+    "reinv_timer_cb": {
+        "num": 1
+    },
+    "hangup_timer_cb": {
+        "num": 1
+    },
+    "process_pending_reinvite": {
+        "num": 1
+    },
+    "trickle_ice_send_sip_info": {
+        "num": 1
+    },
+    "trickle_ice_retrans_18x": {
+        "num": 1
+    },
+    "call_inv_end_session": {
+        "num": 1
+    },
+    "reset_call": {
+        "num": 1
+    },
+    "get_dtmf_method_name": {
+        "num": 1
+    },
+    "alloc_call_id": {
+        "num": 1
+    },
+    "get_secure_level": {
+        "num": 1
+    },
+    "on_make_call_med_tp_complete": {
+        "num": 1
+    },
+    "apply_call_setting": {
+        "num": 1
+    },
+    "dlg_set_via": {
+        "num": 1
+    },
+    "dlg_set_target": {
+        "num": 1
+    },
+    "call_update_contact": {
+        "num": 1
+    },
+    "update_remote_nat_type": {
+        "num": 1
+    },
+    "process_incoming_call_replace": {
+        "num": 1
+    },
+    "process_pending_call_answer": {
+        "num": 1
+    },
+    "process_pending_call_hangup": {
+        "num": 1
+    },
+    "create_temp_sdp": {
+        "num": 1
+    },
+    "verify_request": {
+        "num": 1
+    },
+    "rejected_incoming_call_cb": {
+        "num": 1
+    },
+    "on_incoming_call_med_tp_complete2": {
+        "num": 1
+    },
+    "on_incoming_call_med_tp_complete": {
+        "num": 1
+    },
+    "PJSUA_TRY_LOCK": {
+        "num": 1
+    },
+    "pjmedia_transport_get_info": {
+        "num": 1
+    },
+    "on_answer_call_med_tp_complete": {
+        "num": 1
+    },
+    "is_non_av_fmt": {
+        "num": 1
+    },
+    "check_lock_codec": {
+        "num": 1
+    },
+    "check_ice_complete": {
+        "num": 1
+    },
+    "pjmedia_transport_info_get_spc_info": {
+        "num": 1
+    },
+    "trickle_ice_recv_sip_info": {
+        "num": 1
+    },
+    "PJSUA_RELOCK": {
+        "num": 1
+    },
+    "PJSUA_RELEASE_LOCK": {
+        "num": 1
+    },
+    "call_disconnect": {
+        "num": 1
+    },
+    "modify_sdp_of_call_hold": {
+        "num": 1
+    },
+    "pjmedia_transport_media_stop": {
+        "num": 1
+    },
+    "pjmedia_transport_media_create": {
+        "num": 1
+    },
+    "on_call_transferred": {
+        "num": 1
+    },
+    "pj_elapsed_msec": {
+        "num": 1
+    },
+    "resolve_stun_entry": {
+        "num": 1
+    },
+    "pjsua_get_var": {
+        "num": 1
+    },
+    "init_data": {
+        "num": 1
+    },
+    "logging_on_rx_msg": {
+        "num": 1
+    },
+    "logging_on_tx_msg": {
+        "num": 1
+    },
+    "options_on_rx_request": {
+        "num": 1
+    },
+    "mod_pjsua_on_rx_request": {
+        "num": 1
+    },
+    "mod_pjsua_on_rx_response": {
+        "num": 1
+    },
+    "log_writer": {
+        "num": 1
+    },
+    "worker_thread": {
+        "num": 1
+    },
+    "init_random_seed": {
+        "num": 1
+    },
+    "pjsua_set_state": {
+        "num": 2
+    },
+    "busy_sleep": {
+        "num": 1
+    },
+    "stun_resolve_add_ref": {
+        "num": 1
+    },
+    "release_stun_session": {
+        "num": 1
+    },
+    "destroy_stun_resolve_cb": {
+        "num": 1
+    },
+    "destroy_stun_resolve": {
+        "num": 1
+    },
+    "stun_resolve_dec_ref": {
+        "num": 1
+    },
+    "stun_resolve_complete": {
+        "num": 1
+    },
+    "test_stun_on_status": {
+        "num": 1
+    },
+    "internal_stun_resolve_cb": {
+        "num": 1
+    },
+    "addr_string": {
+        "num": 1
+    },
+    "on_tp_state_callback": {
+        "num": 1
+    },
+    "set_tp_state_cb": {
+        "num": 1
+    },
+    "create_sip_udp_sock": {
+        "num": 1
+    },
+    "nat_detect_cb": {
+        "num": 1
+    },
+    "restart_listener_cb": {
+        "num": 1
+    },
+    "handle_ip_change_on_acc": {
+        "num": 1
+    },
+    "restart_listener": {
+        "num": 1
+    },
+    "ip_change_put_back_inv_config": {
+        "num": 1
+    },
+    "dump_media_stat": {
+        "num": 1
+    },
+    "dump_media_session": {
+        "num": 1
+    },
+    "im_on_rx_request": {
+        "num": 1
+    },
+    "im_callback": {
+        "num": 1
+    },
+    "pjsua_im_data_dup": {
+        "num": 1
+    },
+    "typing_callback": {
+        "num": 1
+    },
+    "stop_media_stream": {
+        "num": 1
+    },
+    "pjsua_media_config_dup": {
+        "num": 1
+    },
+    "pjmedia_endpt_create": {
+        "num": 1
+    },
+    "pjmedia_endpt_destroy": {
+        "num": 1
+    },
+    "get_media_ip_version": {
+        "num": 1
+    },
+    "create_rtp_rtcp_sock": {
+        "num": 1
+    },
+    "create_udp_media_transport": {
+        "num": 1
+    },
+    "pjmedia_transport_simulate_lost": {
+        "num": 1
+    },
+    "pjmedia_transport_close": {
+        "num": 1
+    },
+    "create_loop_media_transport": {
+        "num": 1
+    },
+    "ice_init_complete_cb": {
+        "num": 1
+    },
+    "ice_failed_nego_cb": {
+        "num": 1
+    },
+    "on_ice_complete": {
+        "num": 1
+    },
+    "create_ice_media_transport": {
+        "num": 1
+    },
+    "PJSUA_LOCK_IS_LOCKED": {
+        "num": 1
+    },
+    "sort_media": {
+        "num": 1
+    },
+    "sort_media2": {
+        "num": 1
+    },
+    "on_srtp_nego_complete": {
+        "num": 1
+    },
+    "call_media_init_cb": {
+        "num": 1
+    },
+    "media_channel_init_cb": {
+        "num": 1
+    },
+    "pjmedia_transport_encode_sdp": {
+        "num": 1
+    },
+    "stop_media_session": {
+        "num": 1
+    },
+    "log_call_dump": {
+        "num": 1
+    },
+    "match_codec_fmtp": {
+        "num": 1
+    },
+    "is_media_changed": {
+        "num": 1
+    },
+    "pjmedia_transport_media_start": {
+        "num": 1
+    },
+    "subscribe_buddy": {
+        "num": 1
+    },
+    "unsubscribe_buddy": {
+        "num": 1
+    },
+    "find_buddy": {
+        "num": 1
+    },
+    "lock_buddy": {
+        "num": 1
+    },
+    "unlock_buddy": {
+        "num": 1
+    },
+    "reset_buddy": {
+        "num": 1
+    },
+    "pres_on_rx_request": {
+        "num": 1
+    },
+    "pres_evsub_on_srv_state": {
+        "num": 1
+    },
+    "publish_cb": {
+        "num": 1
+    },
+    "send_publish": {
+        "num": 1
+    },
+    "buddy_timer_cb": {
+        "num": 1
+    },
+    "buddy_resubscribe": {
+        "num": 1
+    },
+    "pjsua_evsub_on_state": {
+        "num": 1
+    },
+    "pjsua_evsub_on_tsx_state": {
+        "num": 1
+    },
+    "pjsua_evsub_on_rx_notify": {
+        "num": 1
+    },
+    "pjsua_evsub_on_rx_dlg_event_notify": {
+        "num": 1
+    },
+    "refresh_client_subscriptions": {
+        "num": 1
+    },
+    "mwi_evsub_on_state": {
+        "num": 1
+    },
+    "mwi_evsub_on_rx_notify": {
+        "num": 1
+    },
+    "unsolicited_mwi_on_rx_request": {
+        "num": 1
+    },
+    "enable_unsolicited_mwi": {
+        "num": 1
+    },
+    "pres_timer_cb": {
+        "num": 1
+    },
+    "~UserTimer": {
+        "num": 1
+    },
+    "UserTimer": {
+        "num": 1
+    },
+    "PendingLog": {
+        "num": 1
+    },
+    "~PendingLog": {
+        "num": 1
+    },
+    "PendingOnDtmfDigitCallback": {
+        "num": 1
+    },
+    "~PendingOnDtmfDigitCallback": {
+        "num": 1
+    },
+    "PendingOnDtmfEventCallback": {
+        "num": 1
+    },
+    "~PendingOnDtmfEventCallback": {
+        "num": 1
+    },
+    "PendingOnMediaTransportCallback": {
+        "num": 1
+    },
+    "~PendingOnMediaTransportCallback": {
+        "num": 1
+    },
+    "PendingOnMediaEventCallback": {
+        "num": 1
+    },
+    "~PendingOnMediaEventCallback": {
+        "num": 1
+    },
+    "ept_log_write": {
+        "num": 1
+    },
+    "jsonNode_hasUnread": {
+        "num": 1
+    },
+    "jsonNode_unreadName": {
+        "num": 2
+    },
+    "jsonNode_readNumber": {
+        "num": 1
+    },
+    "jsonNode_readBool": {
+        "num": 1
+    },
+    "jsonNode_readString": {
+        "num": 1
+    },
+    "jsonNode_readStringVector": {
+        "num": 1
+    },
+    "jsonNode_readContainer": {
+        "num": 1
+    },
+    "jsonNode_readArray": {
+        "num": 1
+    },
+    "jsonNode_writeNumber": {
+        "num": 1
+    },
+    "jsonNode_writeBool": {
+        "num": 1
+    },
+    "jsonNode_writeString": {
+        "num": 1
+    },
+    "jsonNode_writeStringVector": {
+        "num": 1
+    },
+    "jsonNode_writeNewContainer": {
+        "num": 1
+    },
+    "jsonNode_writeNewArray": {
+        "num": 1
+    },
+    "save_file_data": {
+        "num": 1
+    },
+    "json_file_writer": {
+        "num": 1
+    },
+    "save_string_data": {
+        "num": 1
+    },
+    "json_string_writer": {
+        "num": 1
+    },
+    "json_verify": {
+        "num": 1
+    },
+    "alloc_name": {
+        "num": 1
+    },
+    "get_frame": {
+        "num": 1
+    },
+    "put_frame": {
+        "num": 1
+    },
+    "DevAudioMedia": {
+        "num": 3
+    },
+    "~DevAudioMedia": {
+        "num": 2
+    },
+    "~BuddyUserData": {
+        "num": 1
+    },
+    "BuddyUserData": {
+        "num": 1
+    },
+    "Error": {
+        "num": 2
+    },
+    "info": {
+        "num": 1
+    },
+    "main": {
+        "num": 2
+    },
+    "cb": {
+        "num": 1
+    },
+    "add_dns_entries": {
+        "num": 1
+    },
+    "test_resolve": {
+        "num": 1
+    },
+    "round_robin_test": {
+        "num": 1
+    },
+    "add_ref": {
+        "num": 1
+    },
+    "create_ref": {
+        "num": 1
+    },
+    "create_sdp": {
+        "num": 1
+    },
+    "on_rx_offer": {
+        "num": 1
+    },
+    "on_create_offer": {
+        "num": 1
+    },
+    "on_media_update": {
+        "num": 1
+    },
+    "on_state_changed": {
+        "num": 1
+    },
+    "on_rx_request": {
+        "num": 1
+    },
+    "run_job": {
+        "num": 1
+    },
+    "perform_test": {
+        "num": 2
+    },
+    "log_on_rx_msg": {
+        "num": 1
+    },
+    "on_new_session": {
+        "num": 1
+    },
+    "usage": {
+        "num": 1
+    },
+    "strcmp": {
+        "num": 3
+    },
+    "verify_success": {
+        "num": 1
+    },
+    "on_rx_msg": {
+        "num": 1
+    },
+    "on_tx_msg": {
+        "num": 1
+    },
+    "create_msg0": {
+        "num": 1
+    },
+    "create_msg1": {
+        "num": 1
+    },
+    "test_entry": {
+        "num": 1
+    },
+    "pj_sub_timestamp": {
+        "num": 1
+    },
+    "pj_add_timestamp": {
+        "num": 1
+    },
+    "simple_test": {
+        "num": 1
+    },
+    "msg_benchmark": {
+        "num": 1
+    },
+    "pj_elapsed_usec": {
+        "num": 1
+    },
+    "hdr_test_success": {
+        "num": 1
+    },
+    "hdr_test_accept0": {
+        "num": 1
+    },
+    "hdr_test_accept1": {
+        "num": 1
+    },
+    "hdr_test_accept2": {
+        "num": 1
+    },
+    "hdr_test_allow0": {
+        "num": 1
+    },
+    "hdr_test_authorization": {
+        "num": 1
+    },
+    "hdr_test_cid": {
+        "num": 1
+    },
+    "hdr_test_contact0": {
+        "num": 1
+    },
+    "hdr_test_contact1": {
+        "num": 1
+    },
+    "hdr_test_contact_q0": {
+        "num": 1
+    },
+    "hdr_test_contact_q1": {
+        "num": 1
+    },
+    "hdr_test_contact_q2": {
+        "num": 1
+    },
+    "hdr_test_contact_q3": {
+        "num": 1
+    },
+    "hdr_test_contact_q4": {
+        "num": 1
+    },
+    "hdr_test_content_length": {
+        "num": 1
+    },
+    "hdr_test_content_type": {
+        "num": 1
+    },
+    "hdr_test_from": {
+        "num": 1
+    },
+    "hdr_test_proxy_authenticate": {
+        "num": 1
+    },
+    "hdr_test_record_route": {
+        "num": 1
+    },
+    "hdr_test_supported": {
+        "num": 1
+    },
+    "hdr_test_to": {
+        "num": 1
+    },
+    "hdr_test_via": {
+        "num": 1
+    },
+    "hdr_test_via_ipv6_1": {
+        "num": 1
+    },
+    "hdr_test_via_ipv6_2": {
+        "num": 1
+    },
+    "hdr_test_via_ipv6_3": {
+        "num": 1
+    },
+    "hdr_test_retry_after1": {
+        "num": 1
+    },
+    "hdr_test_subject_utf": {
+        "num": 1
+    },
+    "test_simple_addr_spec": {
+        "num": 1
+    },
+    "nameaddr_test": {
+        "num": 1
+    },
+    "generic_param_test": {
+        "num": 1
+    },
+    "hdr_test": {
+        "num": 1
+    },
+    "verify1": {
+        "num": 1
+    },
+    "verify2": {
+        "num": 1
+    },
+    "init_media_type": {
+        "num": 1
+    },
+    "verify_hdr": {
+        "num": 1
+    },
+    "verify_cid_str": {
+        "num": 1
+    },
+    "verify_cid_uri": {
+        "num": 1
+    },
+    "verify_part": {
+        "num": 1
+    },
+    "parse_test": {
+        "num": 1
+    },
+    "mod_send_on_tx_request": {
+        "num": 1
+    },
+    "regs_rx_request": {
+        "num": 1
+    },
+    "client_cb": {
+        "num": 1
+    },
+    "do_test": {
+        "num": 1
+    },
+    "keep_alive_test": {
+        "num": 1
+    },
+    "refresh_error": {
+        "num": 1
+    },
+    "update_test": {
+        "num": 1
+    },
+    "auth_send_error": {
+        "num": 1
+    },
+    "select_tests": {
+        "num": 1
+    },
+    "strtok_r": {
+        "num": 1
+    },
+    "register_static_modules": {
+        "num": 1
+    },
+    "init_report": {
+        "num": 1
+    },
+    "close_report": {
+        "num": 1
+    },
+    "datagram_loop_test": {
+        "num": 1
+    },
+    "multi_listener_test": {
+        "num": 1
+    },
+    "my_on_rx_request": {
+        "num": 1
+    },
+    "my_on_rx_response": {
+        "num": 1
+    },
+    "rt_on_rx_request": {
+        "num": 1
+    },
+    "rt_on_rx_response": {
+        "num": 1
+    },
+    "rt_send_request": {
+        "num": 1
+    },
+    "rt_timeout_timer": {
+        "num": 1
+    },
+    "rt_tx_timer": {
+        "num": 1
+    },
+    "rt_worker_thread": {
+        "num": 1
+    },
+    "load_on_rx_request": {
+        "num": 1
+    },
+    "multi_transport_test": {
+        "num": 1
+    },
+    "tsx_layer_test": {
+        "num": 1
+    },
+    "double_terminate": {
+        "num": 1
+    },
+    "save_tsx_test_state": {
+        "num": 1
+    },
+    "check_tsx_test_state": {
+        "num": 1
+    },
+    "destroy_endpt": {
+        "num": 1
+    },
+    "init_endpt": {
+        "num": 1
+    },
+    "tsx_create_and_send_req": {
+        "num": 1
+    },
+    "uac_tsx_bench": {
+        "num": 1
+    },
+    "uas_tsx_bench": {
+        "num": 1
+    },
+    "pj_get_timestamp_freq": {
+        "num": 1
+    },
+    "PJ_UINT64": {
+        "num": 1
+    },
+    "tsx_user_on_tsx_state": {
+        "num": 2
+    },
+    "msg_receiver_on_rx_request": {
+        "num": 1
+    },
+    "send_response_callback": {
+        "num": 1
+    },
+    "terminate_tsx_callback": {
+        "num": 1
+    },
+    "perform_tsx_test": {
+        "num": 1
+    },
+    "tsx_uac_retransmit_test": {
+        "num": 1
+    },
+    "tsx_resolve_error_test": {
+        "num": 1
+    },
+    "tsx_terminate_resolving_test": {
+        "num": 1
+    },
+    "tsx_retransmit_fail_test": {
+        "num": 1
+    },
+    "tsx_terminate_after_retransmit_test": {
+        "num": 1
+    },
+    "perform_generic_test": {
+        "num": 1
+    },
+    "on_rx_message": {
+        "num": 1
+    },
+    "send_response_timer": {
+        "num": 1
+    },
+    "send_response": {
+        "num": 1
+    },
+    "schedule_send_response": {
+        "num": 1
+    },
+    "terminate_our_tsx": {
+        "num": 1
+    },
+    "save_key": {
+        "num": 1
+    },
+    "tsx_basic_final_response_test": {
+        "num": 1
+    },
+    "tsx_basic_provisional_response_test": {
+        "num": 1
+    },
+    "tsx_retransmit_last_response_test": {
+        "num": 1
+    },
+    "tsx_final_response_retransmission_test": {
+        "num": 1
+    },
+    "tsx_ack_test": {
+        "num": 1
+    },
+    "tsx_transport_failure_test": {
+        "num": 1
+    },
+    "core_txdata_test": {
+        "num": 1
+    },
+    "txdata_test_uri_params": {
+        "num": 1
+    },
+    "create_request_bench": {
+        "num": 1
+    },
+    "create_response_bench": {
+        "num": 1
+    },
+    "create_uri0": {
+        "num": 1
+    },
+    "create_uri1": {
+        "num": 1
+    },
+    "create_uri2": {
+        "num": 1
+    },
+    "create_uri3": {
+        "num": 1
+    },
+    "create_uri4": {
+        "num": 1
+    },
+    "create_uri5": {
+        "num": 1
+    },
+    "create_uri6": {
+        "num": 1
+    },
+    "create_uri7": {
+        "num": 1
+    },
+    "create_uri8": {
+        "num": 1
+    },
+    "create_uri9": {
+        "num": 1
+    },
+    "create_uri10": {
+        "num": 1
+    },
+    "create_uri11": {
+        "num": 1
+    },
+    "create_uri12": {
+        "num": 1
+    },
+    "create_uri13": {
+        "num": 1
+    },
+    "create_uri14": {
+        "num": 1
+    },
+    "create_uri15": {
+        "num": 1
+    },
+    "create_uri16": {
+        "num": 1
+    },
+    "create_uri17": {
+        "num": 1
+    },
+    "create_uri25": {
+        "num": 1
+    },
+    "create_uri26": {
+        "num": 1
+    },
+    "create_uri27": {
+        "num": 1
+    },
+    "create_uri28": {
+        "num": 1
+    },
+    "create_uri29": {
+        "num": 1
+    },
+    "create_uri30": {
+        "num": 1
+    },
+    "create_uri31": {
+        "num": 1
+    },
+    "create_uri32": {
+        "num": 1
+    },
+    "create_uri33": {
+        "num": 1
+    },
+    "create_uri34": {
+        "num": 1
+    },
+    "create_uri35": {
+        "num": 1
+    },
+    "create_uri36": {
+        "num": 1
+    },
+    "create_uri37": {
+        "num": 1
+    },
+    "create_uri38": {
+        "num": 1
+    },
+    "create_uri39": {
+        "num": 1
+    },
+    "create_uri40": {
+        "num": 1
+    },
+    "create_dummy": {
+        "num": 1
+    },
+    "do_uri_test": {
+        "num": 1
+    },
+    "simple_uri_test": {
+        "num": 1
+    },
+    "uri_benchmark": {
+        "num": 1
+    }
+}

@@ -1,0 +1,26 @@
+@startuml shopping
+[front end] as Front_end
+[Login and Register] as Li
+[Order] as Order
+[Inquire] as Inquire
+[Shopping] as Shopping
+[commodity management] as Management
+[database] as Database
+[pay] as Pay
+
+Front_end ..> Li
+Front_end ..> Inquire
+Front_end ..> Shopping
+Front_end ..> Order
+
+
+Shopping ..> Pay
+Shopping ..> Management
+
+Li ..> Database
+Inquire ..> Database
+Shopping ..> Database
+Management ..> Database
+Order ..> Database
+
+@enduml

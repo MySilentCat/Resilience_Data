@@ -1,0 +1,24 @@
+Failure rate:
+start: 0.001, sign_in: 0.001, add_info_into_database: 0.001, database_handle_sign_in: 0.001, receive_sign_in_result_from_database: 0.001, 
+log_in: 0.001, look_items: 0.001, add_item_to_wishlist: 0.001, send_request_to_database: 0.001, database_handle_request: 0.001, 
+receive_item_info_from_database: 0.001, failed_to_order: 0.001, choose_pay_method: 0.001, call_third-part_purchase_platform: 0.001, 
+third-part_purchase_platform_handle_request: 0.001, receive_result: 0.001, successfully_paid: 0.001, add_new_order_info_into_database: 0.001, 
+database_handle_new_order: 0.001, receive_order_result_from_database: 0.001, failed_to_pay: 0.001, stop: 0.001, 
+
+Recovery rate:
+start: 0.9, sign_in: 0.675, add_info_into_database: 0.675, database_handle_sign_in: 0.675, receive_sign_in_result_from_database: 0.9, 
+log_in: 0.9, look_items: 0.675, add_item_to_wishlist: 0.675, send_request_to_database: 0.675, database_handle_request: 0.675, 
+receive_item_info_from_database: 0.675, failed_to_order: 0.675, choose_pay_method: 0.675, call_third-part_purchase_platform: 0.675, 
+third-part_purchase_platform_handle_request: 0.9, receive_result: 0.675, successfully_paid: 0.675, add_new_order_info_into_database: 0.675, 
+database_handle_new_order: 0.675, receive_order_result_from_database: 0.675, failed_to_pay: 0.675, stop: 0.9, 
+
+number of attacks = 9
+
+According to the dynamic Bayesian network constructed by PATH, the resilience evaluation result is: 0.2999
+
+System resilience rating is: 3.0(Full level is 10)
+
+According to the dynamic Bayesian network constructed by CIRCLE,SERIAL,PARALLEL, the resilience evaluation result is: 0.412
+
+System resilience rating is: 4.0(Full level is 10)
+

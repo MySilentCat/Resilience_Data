@@ -1,0 +1,21 @@
+@startuml Schedule
+title Schedule
+start
+repeat
+    :Log in;
+repeat while (Whether the login is successful?) is (no)
+:View schedule;
+fork
+:View School Schedule;
+fork again
+:View Faculty Schedule;
+fork again
+:View class Schedule;
+fork again
+:View Course Schedule;
+fork again
+:View Myself Schedule;
+end fork
+:Export to Excel;
+stop
+@enduml

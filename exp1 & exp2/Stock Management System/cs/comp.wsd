@@ -1,0 +1,65 @@
+@startuml
+
+title Stock Management System Component Diagram
+
+[Database] as Database
+[Persistance] as Persistance
+[Security] as Security
+[Product] as Product
+[Quality] as Quality
+[Bill] as Bill
+[Customer] as Customer
+[Stock] as Stock
+[Log in] as Li
+[Stock Management System] as SMS
+
+
+
+interface Encryption as En1
+interface Access_Control as AC1
+interface Encryption as En2
+interface Access_Control as AC2
+interface Database_Connector as DC
+
+SMS ..> Stock
+SMS ..> Product
+SMS ..> Quality
+SMS ..> Bill
+SMS ..> Customer
+SMS ..> Li
+
+Stock --( En1
+Stock --( En2
+Product --( En1
+Product --( En2
+Quality --( En1
+Quality --( En2
+Bill --( En1
+Bill --( En2
+Customer --( En1
+Customer --( En2
+Li --( En1
+Li --( En2
+
+Stock --( AC1
+Stock --( AC2
+Product --( AC1
+Product --( AC2
+Quality --( AC1
+Quality --( AC2
+Bill --( AC1
+Bill --( AC2
+Customer --( AC1
+Customer --( AC2
+Li --( AC1
+Li --( AC2
+
+Security -- En1
+Security -- AC1
+Persistance -- En2
+Persistance -- AC2
+
+Database -- DC
+Persistance --( DC
+
+@enduml

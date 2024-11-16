@@ -1,0 +1,7 @@
+The resilience values of this software architecture component diagram are: 0.736
+
+The list of toughness values when a component is damaged is as follows:
+Broswer: 0.0
+System: 0.067
+DataBase: 0.187
+

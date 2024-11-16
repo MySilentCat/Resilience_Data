@@ -1,0 +1,46 @@
+
+node: start
+type: start_node
+object: TODO
+comp: TODO
+end node
+
+node: input
+type: action_node
+object: TODO
+comp: Input
+end node
+
+node: shifter
+type: action_node
+object: TODO
+comp: Shifter
+end node
+
+node: alphabetizer
+type: action_node
+object: TODO
+comp: Alphabetizer
+end node
+
+node: output
+type: action_node
+object: TODO
+comp: Output
+end node
+
+node: stop
+type: end_node
+object: TODO
+comp: TODO
+end node
+
+link: start -> input
+
+link: input -> shifter
+
+link: shifter -> alphabetizer
+
+link: alphabetizer -> output
+
+link: output -> stop

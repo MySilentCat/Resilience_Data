@@ -1,0 +1,20 @@
+10
+
+Front_end Li Order Inquire Shopping Management UserDatabase OrderDatabase CommodityDatabase pay
+
+0 1 1 1 1 0 0 0 0 0
+0 0 0 0 0 0 1 0 0 0
+0 0 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 0 1 0
+0 0 0 0 0 1 0 0 1 1
+0 0 0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+UserDatabase OrderDatabase CommodityDatabase
+
+Front_end Li Order Inquire Shopping Management UserDatabase OrderDatabase CommodityDatabase pay
+
+Front_end Li Order Inquire Shopping Management UserDatabase OrderDatabase CommodityDatabase pay

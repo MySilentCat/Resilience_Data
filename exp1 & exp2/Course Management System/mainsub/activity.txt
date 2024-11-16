@@ -1,0 +1,152 @@
+
+node: start
+type: start_node
+object: TODO
+comp: TODO
+end node
+
+node: statement1
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Log in
+type: action_node
+object: TODO
+comp: User, Li
+end node
+
+node: statement2
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: View schedule
+type: action_node
+object: TODO
+comp: User, System
+end node
+
+node: statement3
+type: statement_node
+object: TODO
+comp: System
+end node
+
+node: View School Schedule
+type: action_node
+object: TODO
+comp: System
+end node
+
+node: statement4
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: View Faculty Schedule
+type: action_node
+object: TODO
+comp: System
+end node
+
+node: statement5
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: View class Schedule
+type: action_node
+object: TODO
+comp: System
+end node
+
+node: statement6
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: View Course Schedule
+type: action_node
+object: TODO
+comp: System
+end node
+
+node: statement7
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: View Myself Schedule
+type: action_node
+object: TODO
+comp: System
+end node
+
+node: statement8
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Export to Excel
+type: action_node
+object: TODO
+comp: User, System
+end node
+
+node: stop
+type: end_node
+object: TODO
+comp: TODO
+end node
+
+link: statement1 -> Log in
+
+link: start -> statement1
+
+link: Log in -> statement2
+
+link: statement2 -> statement1
+
+link: statement2 -> View schedule
+
+link: statement3 -> View School Schedule
+
+link: statement4 -> View Faculty Schedule
+
+link: statement5 -> View class Schedule
+
+link: statement6 -> View Course Schedule
+
+link: statement7 -> View Myself Schedule
+
+link: View schedule -> statement3
+
+link: View schedule -> statement4
+
+link: View schedule -> statement5
+
+link: View schedule -> statement6
+
+link: View schedule -> statement7
+
+link: View School Schedule -> statement8
+
+link: View Faculty Schedule -> statement8
+
+link: View class Schedule -> statement8
+
+link: View Course Schedule -> statement8
+
+link: View Myself Schedule -> statement8
+
+link: statement8 -> Export to Excel
+
+link: Export to Excel -> stop

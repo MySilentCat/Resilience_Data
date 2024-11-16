@@ -1,0 +1,184 @@
+
+node: start
+type: start_node
+object: TODO
+comp: TODO
+end node
+
+node: click sign in
+type: action_node
+object: TODO
+comp: admin_front
+end node
+
+node: enter username and password
+type: action_node
+object: TODO
+comp: admin_front
+end node
+
+node: send username and password
+type: send_node
+object: TODO
+comp: admin_front
+end node
+
+node: receive username and password
+type: receive_node
+object: TODO
+comp: user_info
+end node
+
+node: valid username and password
+type: action_node
+object: TODO
+comp: user_info
+end node
+
+node: statement1
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: statement3
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: server check id info
+type: action_node
+object: TODO
+comp: user_info
+end node
+
+node: send id info to database
+type: send_node
+object: TODO
+comp: user_info
+end node
+
+node: id database receive id info
+type: receive_node
+object: TODO
+comp: user_d
+end node
+
+node: id database check id info
+type: action_node
+object: TODO
+comp: user_d
+end node
+
+node: id database send check results
+type: send_node
+object: TODO
+comp: user_d
+end node
+
+node: save user info
+type: action_node
+object: TODO
+comp: user_info
+end node
+
+node: server send user info to database
+type: send_node
+object: TODO
+comp: user_info
+end node
+
+node: user database receive user info
+type: receive_node
+object: TODO
+comp: user_d
+end node
+
+node: user database save user info
+type: action_node
+object: TODO
+comp: user_d
+end node
+
+node: user database send save results
+type: send_node
+object: TODO
+comp: user_d
+end node
+
+node: statement2
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: send sign in result
+type: send_node
+object: TODO
+comp: user_info
+end node
+
+node: receive sign in result
+type: receive_node
+object: TODO
+comp: admin_front
+end node
+
+node: show sign in result
+type: action_node
+object: TODO
+comp: admin_front
+end node
+
+node: stop
+type: end_node
+object: TODO
+comp: TODO
+end node
+
+link: start -> click sign in
+
+link: click sign in -> enter username and password
+
+link: enter username and password -> send username and password
+
+link: send username and password -> receive username and password
+
+link: receive username and password -> valid username and password
+
+link: statement1 -> server check id info
+
+link: server check id info -> send id info to database
+
+link: send id info to database -> id database receive id info
+
+link: id database receive id info -> id database check id info
+
+link: id database check id info -> id database send check results
+
+link: id database send check results -> save user info
+
+link: save user info -> server send user info to database
+
+link: server send user info to database -> user database receive user info
+
+link: user database receive user info -> user database save user info
+
+link: user database save user info -> user database send save results
+
+link: valid username and password -> statement1
+
+link: valid username and password -> statement3
+
+link: user database send save results -> statement2
+
+link: statement3 -> statement2
+
+link: statement2 -> send sign in result
+
+link: send sign in result -> receive sign in result
+
+link: receive sign in result -> show sign in result
+
+link: show sign in result -> stop

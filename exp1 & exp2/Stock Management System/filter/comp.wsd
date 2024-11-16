@@ -1,0 +1,41 @@
+@startuml
+
+title Stock Management System Component Diagram
+
+[Database] as Database
+[Persistance] as Persistance
+[Security] as Security
+[Product] as Product
+[Quality] as Quality
+[Bill] as Bill
+[Customer] as Customer
+[Stock] as Stock
+[Log in] as Li
+[Stock Management System] as SMS
+
+
+SMS ..> Stock
+SMS ..> Product
+SMS ..> Quality
+SMS ..> Bill
+SMS ..> Customer
+SMS ..> Li
+
+Stock ..> Security
+Product ..> Security
+Quality ..> Security
+Bill ..> Security
+Customer ..> Security
+Li ..> Security
+
+Stock ..> Persistance
+Product ..> Persistance
+Quality ..> Persistance
+Bill ..> Persistance
+Customer ..> Persistance
+Li ..> Persistance
+
+
+Persistance ..> Database
+
+@enduml

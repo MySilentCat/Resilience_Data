@@ -1,0 +1,19 @@
+8
+
+Front_end Li Order Inquire Shopping Management database pay
+
+0 1 1 1 1 0 0 0
+0 0 0 0 0 0 1 0
+0 0 0 0 0 0 1 0
+0 0 0 0 0 0 1 0
+0 0 0 0 0 1 1 1
+0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+
+database
+
+Front_end Li Order Inquire Shopping Management database pay
+
+Front_end Li Order Inquire Shopping Management database pay
+

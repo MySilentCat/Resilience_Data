@@ -1,0 +1,13 @@
+@startuml 
+
+[Client Front End] as User
+[Log in] as Li
+[Timetable query system] as System
+[Database Server] as DataBase
+
+User ..> System
+User ..> Li
+Li ..> DataBase
+System ..> DataBase
+
+@enduml

@@ -1,0 +1,9 @@
+The resilience values of this software architecture component diagram are: 0.724
+
+The list of toughness values when a component is damaged is as follows:
+User: 0.085
+Add: 0.1
+Delete: 0.1
+Sort: 0.1
+DataBase: 0.15
+

@@ -1,0 +1,18 @@
+8
+
+User Li System School Faculty Class Course DataBase
+
+0 1 1 0 0 0 0 0
+0 0 0 0 0 0 0 1
+0 0 0 1 1 1 1 0
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0
+
+DataBase
+
+User Li System DataBase
+
+User Li System DataBase

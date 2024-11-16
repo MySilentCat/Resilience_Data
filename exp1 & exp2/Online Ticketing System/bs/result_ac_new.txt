@@ -1,0 +1,16 @@
+Failure rate:
+start: 0.001, click_sign_in: 0.001, enter_username_and_password: 0.001, send_username_and_password: 0.001, receive_username_and_password: 0.001, valid_username_and_password: 0.001, server_check_id_info: 0.001, send_id_info_to_database: 0.001, id_database_receive_id_info: 0.001, id_database_check_id_info: 0.001, id_database_send_check_results: 0.001, save_user_info: 0.001, server_send_user_info_to_database: 0.001, user_database_receive_user_info: 0.001, user_database_save_user_info: 0.001, user_database_send_save_results: 0.001, send_sign_in_result: 0.001, receive_sign_in_result: 0.001, show_sign_in_result: 0.001, stop: 0.001, 
+
+Recovery rate:
+start: 0.9, click_sign_in: 0.8645, enter_username_and_password: 0.8645, send_username_and_password: 0.8645, receive_username_and_password: 0.891, valid_username_and_password: 0.891, server_check_id_info: 0.891, send_id_info_to_database: 0.891, id_database_receive_id_info: 0.9, id_database_check_id_info: 0.9, id_database_send_check_results: 0.9, save_user_info: 0.891, server_send_user_info_to_database: 0.891, user_database_receive_user_info: 0.9, user_database_save_user_info: 0.9, user_database_send_save_results: 0.9, send_sign_in_result: 0.891, receive_sign_in_result: 0.8645, show_sign_in_result: 0.8645, stop: 0.9, 
+
+number of attacks = 9
+
+According to the dynamic Bayesian network constructed by PATH, the resilience evaluation result is: 0.3757
+
+System resilience rating is: 4.0(Full level is 10)
+
+According to the dynamic Bayesian network constructed by CIRCLE,SERIAL,PARALLEL, the resilience evaluation result is: 0.4513
+
+System resilience rating is: 5.0(Full level is 10)
+

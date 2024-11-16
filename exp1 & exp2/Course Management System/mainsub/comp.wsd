@@ -1,0 +1,28 @@
+@startuml 
+
+[Client Front End] as User
+[Log in] as Li
+[Timetable query system] as System
+[School query system] as School
+[Faculty query system] as Faculty
+[Class query system] as Class
+[Course query system] as Course
+[Database Server] as DataBase
+
+User ..> System
+System ..> School
+System ..> Faculty
+System ..> Class
+System ..> Course
+
+
+User ..> Li
+Li --( TCP
+
+School --( TCP
+Faculty --( TCP
+Class --( TCP
+Course --( TCP
+TCP -- DataBase
+
+@enduml

@@ -1,0 +1,9 @@
+The resilience values of this software architecture component diagram are: 0.838
+
+The list of toughness values when a component is damaged is as follows:
+Alphabetizer: 0.588
+Output: 0.588
+Input: 0.669
+Shifter: 0.669
+Control: 0.701
+

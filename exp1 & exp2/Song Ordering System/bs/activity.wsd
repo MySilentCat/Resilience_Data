@@ -1,0 +1,21 @@
+@startuml KTV
+title KTV
+|user|
+start
+:start order;
+|order system|
+:input song name;
+|database|
+:search for song info;
+|order system|
+:show song info;
+fork
+:delete song;
+fork again
+:sort song;
+fork again
+:add song;
+end fork
+:show song list;
+stop 
+@enduml

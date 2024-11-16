@@ -1,0 +1,26 @@
+Failure rate:
+start: 0.001, Login_to_the_Stock_Management_System: 0.001, Admin_login_ID_and_Password: 0.001, Send_ID_and_Password: 0.001, 
+Receive_ID_and_Password: 0.001, Check_ID_and_Password: 0.001, Check_ID_and_Password_in_Database: 0.001, Valid_ID_and_Dassword: 0.001, 
+Send_user_level_and_permission: 0.001, Invalid_ID_or_Password: 0.001, return_Invalid_Info: 0.001, Send_login_Result: 0.001, 
+Receive_login_Result: 0.001, Set_user_level_and_permissions: 0.001, Access_Internal_Functionalities: 0.001, Manage_Stock: 0.001, 
+Manage_Product: 0.001, Manage_Quality: 0.001, Manage_Bill: 0.001, Manage_Custmor: 0.001, Send_Operation: 0.001, receive_Operation: 0.001, 
+Call_Database: 0.001, Operation_Action: 0.001, Send_Result: 0.001, receive_Result: 0.001, Logout_from_the_System: 0.001, stop: 0.001, 
+
+Recovery rate:
+start: 0.9, Login_to_the_Stock_Management_System: 0.687978, Admin_login_ID_and_Password: 0.9297, Send_ID_and_Password: 0.9297, 
+Receive_ID_and_Password: 0.9, Check_ID_and_Password: 0.9, Check_ID_and_Password_in_Database: 0.675, Valid_ID_and_Dassword: 0.9, 
+Send_user_level_and_permission: 0.9, Invalid_ID_or_Password: 0.9, return_Invalid_Info: 0.9, Send_login_Result: 0.9, Receive_login_Result: 0.9297, 
+Set_user_level_and_permissions: 0.9297, Access_Internal_Functionalities: 0.9297, Manage_Stock: 0.8743, Manage_Product: 0.8743, 
+Manage_Quality: 0.8743, Manage_Bill: 0.8743, Manage_Custmor: 0.8743, Send_Operation: 0.9297, receive_Operation: 0.9, Call_Database: 0.9, 
+Operation_Action: 0.675, Send_Result: 0.9, receive_Result: 0.9297, Logout_from_the_System: 0.9, stop: 0.9, 
+
+number of attacks = 9
+
+According to the dynamic Bayesian network constructed by PATH, the resilience evaluation result is: 0.3222
+
+System resilience rating is: 3.0(Full level is 10)
+
+According to the dynamic Bayesian network constructed by CIRCLE,SERIAL,PARALLEL, the resilience evaluation result is: 0.4277
+
+System resilience rating is: 4.0(Full level is 10)
+

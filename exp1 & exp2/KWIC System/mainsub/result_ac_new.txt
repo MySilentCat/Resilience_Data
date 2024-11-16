@@ -1,0 +1,16 @@
+Failure rate:
+start: 0.001, input: 0.001, shifter: 0.001, alphabetizer: 0.001, output: 0.001, stop: 0.001, 
+
+Recovery rate:
+start: 0.9, input: 0.45, shifter: 0.45, alphabetizer: 0.45, output: 0.45, stop: 0.9, 
+
+number of attacks = 9
+
+According to the dynamic Bayesian network constructed by PATH, the resilience evaluation result is: 0.4105
+
+System resilience rating is: 4.0(Full level is 10)
+
+According to the dynamic Bayesian network constructed by CIRCLE,SERIAL,PARALLEL, the resilience evaluation result is: 0.4194
+
+System resilience rating is: 4.0(Full level is 10)
+

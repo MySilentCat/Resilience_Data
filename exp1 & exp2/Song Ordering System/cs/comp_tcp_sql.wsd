@@ -1,0 +1,12 @@
+@startuml 
+
+[Client Font End] as User
+[Order System] as System
+[Database Server] as DataBase
+
+User --( TCP 
+TCP -- System
+System --( SQL
+SQL -- DataBase
+
+@enduml

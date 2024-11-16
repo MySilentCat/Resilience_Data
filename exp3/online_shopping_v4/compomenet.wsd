@@ -1,0 +1,44 @@
+@startuml shopping
+[front end] as Front_end
+[Login and Register] as Li
+[Order] as Order
+[Inquire] as Inquire
+[Shopping] as Shopping
+[commodity management] as Management
+[User database] as UserDatabase
+[Product database] as ProductDatabase
+[Order database] as OrderDatabase
+[Backup User database] as BackUserDatabase
+[Backup Product database] as BackProductDatabase
+[Backup Order database] as BackOrderDatabase
+[pay] as Pay
+
+Front_end --( LiApi
+LiApi -- Li
+
+Front_end --( InquireApi
+InquireApi -- Inquire
+
+Front_end --( ShoppingApi
+ShoppingApi -- Shopping
+
+Front_end --( OrderApi
+OrderApi --  Order
+
+Shopping ..> Pay
+Shopping ..> Management
+
+Li --( UserDataBaseAPi
+Inquire --( ProductDataBaseAPi
+Shopping --( OrderDataBaseAPi
+Management --( OrderDataBaseAPi
+Order --( OrderDataBaseAPi
+
+UserDatabase -- UserDataBaseAPi
+ProductDatabase -- ProductDataBaseAPi
+OrderDatabase -- OrderDataBaseAPi
+BackUserDatabase -- UserDataBaseAPi
+BackProductDatabase -- ProductDataBaseAPi
+BackOrderDatabase -- OrderDataBaseAPi
+
+@enduml

@@ -1,0 +1,20 @@
+10
+
+Database Persistance Security Product Quality Bill Customer Stock Li SMS
+
+0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 1 1 0 0 0 0 0 0 0
+0 1 1 0 0 0 0 0 0 0
+0 1 1 0 0 0 0 0 0 0
+0 1 1 0 0 0 0 0 0 0
+0 1 1 0 0 0 0 0 0 0
+0 1 1 0 0 0 0 0 0 0
+0 0 0 1 1 1 1 1 1 0
+
+Database Security
+
+Database Persistance Security Product Quality Bill Customer Stock Li SMS
+
+Database Persistance Security Product Quality Bill Customer Stock Li SMS

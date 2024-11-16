@@ -1,0 +1,33 @@
+@startuml ticket booking sys sign in
+title ticket booking sys sign in
+|user|
+start
+:click sign in;
+|user|
+:enter username and password;
+:send username and password>
+|server|
+:receive username and password<
+:valid username and password;
+if (Valid) then(yes)
+    :server check id info;
+    :send id info to database>
+    |database|
+    :id database receive id info<
+    :id database check id info;
+    :id database send check results>
+    |server|
+    :save user info;
+    :server send user info to database>
+    |database|
+    :user database receive user info<
+    :user database save user info;
+    :user database send save results>
+endif
+|server|
+:send sign in result>
+|user|
+:receive sign in result<
+:show sign in result;
+stop
+@enduml

@@ -1,0 +1,18 @@
+@startuml 
+
+[Client Front End] as User
+[Log in] as Li
+[Timetable query system] as System
+[Database Server] as DataBase
+
+interface HTTPS as HTTPS
+interface SQL as SQL
+
+User --( HTTPS
+HTTPS -- System
+HTTPS -- Li
+Li --( SQL
+System --( SQL
+SQL -- DataBase
+
+@enduml

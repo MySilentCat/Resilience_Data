@@ -1,0 +1,418 @@
+
+node: start
+type: start_node
+object: TODO
+comp: TODO
+end node
+
+node: Login to the Stock Management System
+type: action_node
+object: TODO
+comp: SMS, Persistance
+end node
+
+node: statement1
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Admin login ID and Password
+type: action_node
+object: TODO
+comp: SMS
+end node
+
+node: Send ID and Password
+type: send_node
+object: TODO
+comp: SMS
+end node
+
+node: Receive ID and Password
+type: receive_node
+object: TODO
+comp: TODO
+end node
+
+node: Check ID and Password
+type: action_node
+object: TODO
+comp: TODO
+end node
+
+node: Check ID and Password in Database
+type: action_node
+object: TODO
+comp: Database
+end node
+
+node: statement2
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Valid ID and Dassword
+type: action_node
+object: TODO
+comp: TODO
+end node
+
+node: Send user level and permission
+type: action_node
+object: TODO
+comp: TODO
+end node
+
+node: statement3
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Invalid ID or Password
+type: action_node
+object: TODO
+comp: TODO
+end node
+
+node: return Invalid Info
+type: action_node
+object: TODO
+comp: TODO
+end node
+
+node: statement4
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Send login Result
+type: send_node
+object: TODO
+comp: TODO
+end node
+
+node: Receive login Result
+type: receive_node
+object: TODO
+comp: SMS
+end node
+
+node: statement5
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Set user level and permissions
+type: action_node
+object: TODO
+comp: SMS
+end node
+
+node: Access Internal Functionalities
+type: action_node
+object: TODO
+comp: SMS
+end node
+
+node: statement6
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: statement7
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Manage Stock
+type: action_node
+object: TODO
+comp: Stock
+end node
+
+node: statement8
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: statement9
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: statement10
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Manage Product
+type: action_node
+object: TODO
+comp: Product
+end node
+
+node: statement11
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: statement12
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: statement13
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Manage Quality
+type: action_node
+object: TODO
+comp: Quality
+end node
+
+node: statement14
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: statement15
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: statement16
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Manage Bill
+type: action_node
+object: TODO
+comp: Bill
+end node
+
+node: statement17
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: statement18
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: statement19
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Manage Custmor
+type: action_node
+object: TODO
+comp: Customer
+end node
+
+node: statement20
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: statement21
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: statement22
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Send Operation
+type: send_node
+object: TODO
+comp: SMS
+end node
+
+node: receive Operation
+type: receive_node
+object: TODO
+comp: TODO
+end node
+
+node: Call Database
+type: action_node
+object: TODO
+comp: TODO
+end node
+
+node: Operation Action
+type: action_node
+object: TODO
+comp: Database
+end node
+
+node: Send Result
+type: send_node
+object: TODO
+comp: TODO
+end node
+
+node: receive Result
+type: receive_node
+object: TODO
+comp: SMS
+end node
+
+node: statement23
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: Logout from the System
+type: action_node
+object: TODO
+comp: TODO
+end node
+
+node: stop
+type: end_node
+object: TODO
+comp: TODO
+end node
+
+link: start -> Login to the Stock Management System
+
+link: statement1 -> Admin login ID and Password
+
+link: Admin login ID and Password -> Send ID and Password
+
+link: Send ID and Password -> Receive ID and Password
+
+link: Receive ID and Password -> Check ID and Password
+
+link: Check ID and Password -> Check ID and Password in Database
+
+link: statement2 -> Valid ID and Dassword
+
+link: Valid ID and Dassword -> Send user level and permission
+
+link: statement3 -> Invalid ID or Password
+
+link: Invalid ID or Password -> return Invalid Info
+
+link: Check ID and Password in Database -> statement2
+
+link: Check ID and Password in Database -> statement3
+
+link: Send user level and permission -> statement4
+
+link: return Invalid Info -> statement4
+
+link: statement4 -> Send login Result
+
+link: Send login Result -> Receive login Result
+
+link: Login to the Stock Management System -> statement1
+
+link: Receive login Result -> statement5
+
+link: statement5 -> statement1
+
+link: statement5 -> Set user level and permissions
+
+link: Set user level and permissions -> Access Internal Functionalities
+
+link: statement7 -> Manage Stock
+
+link: statement6 -> statement7
+
+link: Manage Stock -> statement8
+
+link: statement10 -> Manage Product
+
+link: statement9 -> statement10
+
+link: Manage Product -> statement11
+
+link: statement13 -> Manage Quality
+
+link: statement12 -> statement13
+
+link: Manage Quality -> statement14
+
+link: statement16 -> Manage Bill
+
+link: statement15 -> statement16
+
+link: Manage Bill -> statement17
+
+link: statement19 -> Manage Custmor
+
+link: statement18 -> statement19
+
+link: Manage Custmor -> statement20
+
+link: Access Internal Functionalities -> statement15
+
+link: Access Internal Functionalities -> statement18
+
+link: Access Internal Functionalities -> statement6
+
+link: Access Internal Functionalities -> statement9
+
+link: Access Internal Functionalities -> statement12
+
+link: statement17 -> statement21
+
+link: statement20 -> statement21
+
+link: statement8 -> statement21
+
+link: statement11 -> statement21
+
+link: statement14 -> statement21
+
+link: statement22 -> Send Operation
+
+link: Send Operation -> receive Operation
+
+link: receive Operation -> Call Database
+
+link: Call Database -> Operation Action
+
+link: Operation Action -> Send Result
+
+link: Send Result -> receive Result
+
+link: statement21 -> statement22
+
+link: receive Result -> statement23
+
+link: statement23 -> Logout from the System
+
+link: Logout from the System -> stop

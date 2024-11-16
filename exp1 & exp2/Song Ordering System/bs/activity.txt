@@ -1,0 +1,114 @@
+
+node: start
+type: start_node
+object: TODO
+comp: TODO
+end node
+
+node: startorder
+type: action_node
+object: TODO
+comp: Broswer
+end node
+
+node: input song name
+type: action_node
+object: TODO
+comp: System
+end node
+
+node: search for song info
+type: action_node
+object: TODO
+comp: DataBase
+end node
+
+node: show song info
+type: action_node
+object: TODO
+comp: System
+end node
+
+node: statement1
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: delete song
+type: action_node
+object: TODO
+comp: System
+end node
+
+node: statement2
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: sort song
+type: action_node
+object: TODO
+comp: System
+end node
+
+node: statement3
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: add song
+type: action_node
+object: TODO
+comp: System
+end node
+
+node: statement4
+type: statement_node
+object: TODO
+comp: TODO
+end node
+
+node: show song list
+type: action_node
+object: TODO
+comp: System
+end node
+
+node: stop
+type: end_node
+object: TODO
+comp: TODO
+end node
+
+link: start -> startorder
+
+link: startorder -> input song name
+
+link: input song name -> search for song info
+
+link: search for song info -> show song info
+
+link: statement1 -> delete song
+
+link: statement2 -> sort song
+
+link: statement3 -> add song
+
+link: show song info -> statement3
+
+link: show song info -> statement1
+
+link: show song info -> statement2
+
+link: sort song -> statement4
+
+link: add song -> statement4
+
+link: delete song -> statement4
+
+link: statement4 -> show song list
+
+link: show song list -> stop

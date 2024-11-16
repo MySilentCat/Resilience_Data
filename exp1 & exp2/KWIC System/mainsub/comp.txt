@@ -1,0 +1,15 @@
+5
+
+Control Input Shifter Alphabetizer Output
+
+0 1 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Input Shifter
+
+Input Shifter Alphabetizer Output
+
+Input Shifter Alphabetizer Output

@@ -1,0 +1,14 @@
+4
+
+Input Shifter Alphabetizer Output
+
+0 0 0 0
+1 0 0 0
+0 1 0 0
+0 0 1 0
+
+Input Shifter
+
+Input Shifter Alphabetizer Output
+
+Input Shifter Alphabetizer Output
